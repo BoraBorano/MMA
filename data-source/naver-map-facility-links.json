@@ -1,0 +1,3522 @@
+[
+    {
+        "sourceRowNumber":  1,
+        "query":  "과천시 시립예술단체 과천",
+        "url":  "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%20%EC%8B%9C%EB%A6%BD%EC%98%88%EC%88%A0%EB%8B%A8%EC%B2%B4%20%EA%B3%BC%EC%B2%9C",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  2,
+        "query":  "과천시 청소년수련관 과천",
+        "url":  "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%20%EC%B2%AD%EC%86%8C%EB%85%84%EC%88%98%EB%A0%A8%EA%B4%80%20%EA%B3%BC%EC%B2%9C",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "과천시청소년수련관",
+        "registeredAddress":  "경기 과천시 문원동"
+    },
+    {
+        "sourceRowNumber":  3,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  4,
+        "query":  "과천시청주차장 과천시",
+        "url":  "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%EC%B2%AD%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EA%B3%BC%EC%B2%9C%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "과천시청주차장",
+        "registeredAddress":  "경기 과천시 중앙동"
+    },
+    {
+        "sourceRowNumber":  5,
+        "query":  "과천시 추사박물관 과천",
+        "url":  "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%20%EC%B6%94%EC%82%AC%EB%B0%95%EB%AC%BC%EA%B4%80%20%EA%B3%BC%EC%B2%9C",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "추사박물관",
+        "registeredAddress":  "경기 과천시 주암동"
+    },
+    {
+        "sourceRowNumber":  6,
+        "query":  "과천시 도시공원 및 녹지 과천",
+        "url":  "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%20%EB%8F%84%EC%8B%9C%EA%B3%B5%EC%9B%90%20%EB%B0%8F%20%EB%85%B9%EC%A7%80%20%EA%B3%BC%EC%B2%9C",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  7,
+        "query":  "과천시 시민회관 과천",
+        "url":  "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%20%EC%8B%9C%EB%AF%BC%ED%9A%8C%EA%B4%80%20%EA%B3%BC%EC%B2%9C",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "과천시민회관",
+        "registeredAddress":  "경기 과천시 중앙동"
+    },
+    {
+        "sourceRowNumber":  8,
+        "query":  "과천시시설관리공단 유아체능단 과천시",
+        "url":  "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%EC%8B%9C%EC%84%A4%EA%B4%80%EB%A6%AC%EA%B3%B5%EB%8B%A8%20%EC%9C%A0%EC%95%84%EC%B2%B4%EB%8A%A5%EB%8B%A8%20%EA%B3%BC%EC%B2%9C%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "과천시시설관리공단 유아체능단",
+        "registeredAddress":  "경기 과천시 중앙동"
+    },
+    {
+        "sourceRowNumber":  9,
+        "query":  "과천시 문화교육센터 갈현동 과천",
+        "url":  "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%20%EB%AC%B8%ED%99%94%EA%B5%90%EC%9C%A1%EC%84%BC%ED%84%B0%20%EA%B0%88%ED%98%84%EB%8F%99%20%EA%B3%BC%EC%B2%9C",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "원문동문화교육센터",
+        "registeredAddress":  "경기 과천시 갈현동"
+    },
+    {
+        "sourceRowNumber":  10,
+        "query":  "과천시 문화교육센터 원문동 과천",
+        "url":  "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%20%EB%AC%B8%ED%99%94%EA%B5%90%EC%9C%A1%EC%84%BC%ED%84%B0%20%EC%9B%90%EB%AC%B8%EB%8F%99%20%EA%B3%BC%EC%B2%9C",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "원문동문화교육센터",
+        "registeredAddress":  "경기 과천시 갈현동"
+    },
+    {
+        "sourceRowNumber":  11,
+        "query":  "과천시 문화교육센터 별양동 과천",
+        "url":  "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%20%EB%AC%B8%ED%99%94%EA%B5%90%EC%9C%A1%EC%84%BC%ED%84%B0%20%EB%B3%84%EC%96%91%EB%8F%99%20%EA%B3%BC%EC%B2%9C",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "별양동문화교육센터",
+        "registeredAddress":  "경기 과천시 별양동"
+    },
+    {
+        "sourceRowNumber":  12,
+        "query":  "과천시 문화교육센터 부림동 과천",
+        "url":  "https://map.naver.com/p/entry/place/18445470",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "부림동문화교육센터",
+        "registeredAddress":  "경기 과천시 부림동"
+    },
+    {
+        "sourceRowNumber":  13,
+        "query":  "과천시 문화교육센터 과천동 과천",
+        "url":  "https://map.naver.com/p/entry/place/36961601",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "과천동문화교육센터",
+        "registeredAddress":  "경기 과천시 과천동"
+    },
+    {
+        "sourceRowNumber":  14,
+        "query":  "경기도체육시설 경기도 유도회관 수원",
+        "url":  "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%B2%B4%EC%9C%A1%EC%8B%9C%EC%84%A4%20%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%9C%A0%EB%8F%84%ED%9A%8C%EA%B4%80%20%EC%88%98%EC%9B%90",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  15,
+        "query":  "경기도체육시설 경기도 검도수련원 시흥",
+        "url":  "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%B2%B4%EC%9C%A1%EC%8B%9C%EC%84%A4%20%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EA%B2%80%EB%8F%84%EC%88%98%EB%A0%A8%EC%9B%90%20%EC%8B%9C%ED%9D%A5",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  16,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  17,
+        "query":  "용인자연휴양림 주차장 용인",
+        "url":  "https://map.naver.com/p/search/%EC%9A%A9%EC%9D%B8%EC%9E%90%EC%97%B0%ED%9C%B4%EC%96%91%EB%A6%BC%20%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%9A%A9%EC%9D%B8",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "용인자연휴양림제1주차장",
+        "registeredAddress":  "경기 용인시 처인구 모현읍"
+    },
+    {
+        "sourceRowNumber":  18,
+        "query":  "경기도어린이박물관 용인",
+        "url":  "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%96%B4%EB%A6%B0%EC%9D%B4%EB%B0%95%EB%AC%BC%EA%B4%80%20%EC%9A%A9%EC%9D%B8",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "경기도어린이박물관",
+        "registeredAddress":  "경기 용인시 기흥구 상갈동"
+    },
+    {
+        "sourceRowNumber":  19,
+        "query":  "경기도 박물관 용인",
+        "url":  "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EB%B0%95%EB%AC%BC%EA%B4%80%20%EC%9A%A9%EC%9D%B8",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  20,
+        "query":  "백남준아트센터 용인",
+        "url":  "https://map.naver.com/p/search/%EB%B0%B1%EB%82%A8%EC%A4%80%EC%95%84%ED%8A%B8%EC%84%BC%ED%84%B0%20%EC%9A%A9%EC%9D%B8",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "백남준아트센터",
+        "registeredAddress":  "경기 용인시 기흥구 상갈동"
+    },
+    {
+        "sourceRowNumber":  21,
+        "query":  "강남병원 용인",
+        "url":  "https://map.naver.com/p/search/%EA%B0%95%EB%82%A8%EB%B3%91%EC%9B%90%20%EC%9A%A9%EC%9D%B8",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "강남병원",
+        "registeredAddress":  "경기 용인시 기흥구 신갈동"
+    },
+    {
+        "sourceRowNumber":  22,
+        "query":  "연세대학교용인세브란스병원 용인",
+        "url":  "https://map.naver.com/p/search/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90%EC%9A%A9%EC%9D%B8%EC%84%B8%EB%B8%8C%EB%9E%80%EC%8A%A4%EB%B3%91%EC%9B%90%20%EC%9A%A9%EC%9D%B8",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "용인세브란스병원",
+        "registeredAddress":  "경기 용인시 기흥구 중동"
+    },
+    {
+        "sourceRowNumber":  23,
+        "query":  "나도보청기 용인",
+        "url":  "https://map.naver.com/p/entry/place/1165538059",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "나도보청기",
+        "registeredAddress":  "경기 용인시 기흥구 중동"
+    },
+    {
+        "sourceRowNumber":  24,
+        "query":  "대한안과의사회 현탑안과 용인",
+        "url":  "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%ED%98%84%ED%83%91%EC%95%88%EA%B3%BC%20%EC%9A%A9%EC%9D%B8",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  25,
+        "query":  "한국민속촌 용인",
+        "url":  "https://map.naver.com/p/search/%ED%95%9C%EA%B5%AD%EB%AF%BC%EC%86%8D%EC%B4%8C%20%EC%9A%A9%EC%9D%B8",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  26,
+        "query":  "하늘바다컴퓨터학원 용인",
+        "url":  "https://map.naver.com/p/entry/place/38279716",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "하늘바다컴퓨터학원",
+        "registeredAddress":  "경기 용인시 수지구 풍덕천동"
+    },
+    {
+        "sourceRowNumber":  27,
+        "query":  "엠플러스병원 용인",
+        "url":  "https://map.naver.com/p/entry/place/12016573",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "엠플러스병원",
+        "registeredAddress":  "경기 용인시 기흥구 중동"
+    },
+    {
+        "sourceRowNumber":  28,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  29,
+        "query":  "의왕시 보건소 의왕",
+        "url":  "https://map.naver.com/p/search/%EC%9D%98%EC%99%95%EC%8B%9C%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EC%9D%98%EC%99%95",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "의왕시보건소",
+        "registeredAddress":  "경기 의왕시 고천동"
+    },
+    {
+        "sourceRowNumber":  30,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  31,
+        "query":  "시티병원 장례식장 의왕시",
+        "url":  "https://map.naver.com/p/search/%EC%8B%9C%ED%8B%B0%EB%B3%91%EC%9B%90%20%EC%9E%A5%EB%A1%80%EC%8B%9D%EC%9E%A5%20%EC%9D%98%EC%99%95%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "시티병원 장례식장",
+        "registeredAddress":  "경기 의왕시 오전동"
+    },
+    {
+        "sourceRowNumber":  32,
+        "query":  "의왕레일파크 의왕시",
+        "url":  "https://map.naver.com/p/search/%EC%9D%98%EC%99%95%EB%A0%88%EC%9D%BC%ED%8C%8C%ED%81%AC%20%EC%9D%98%EC%99%95%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "의왕레일파크",
+        "registeredAddress":  "경기 의왕시 월암동"
+    },
+    {
+        "sourceRowNumber":  33,
+        "query":  "이천시 보건소 이천",
+        "url":  "https://map.naver.com/p/search/%EC%9D%B4%EC%B2%9C%EC%8B%9C%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EC%9D%B4%EC%B2%9C",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "이천시보건소",
+        "registeredAddress":  "경기 이천시 중리동"
+    },
+    {
+        "sourceRowNumber":  34,
+        "query":  "경기도의료원 이천 이천",
+        "url":  "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%9D%98%EB%A3%8C%EC%9B%90%20%EC%9D%B4%EC%B2%9C%20%EC%9D%B4%EC%B2%9C",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "경기도의료원이천병원",
+        "registeredAddress":  "경기 이천시 관고동"
+    },
+    {
+        "sourceRowNumber":  35,
+        "query":  "서울감동치과 장호원점 이천",
+        "url":  "https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%EA%B0%90%EB%8F%99%EC%B9%98%EA%B3%BC%20%EC%9E%A5%ED%98%B8%EC%9B%90%EC%A0%90%20%EC%9D%B4%EC%B2%9C",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  36,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  37,
+        "query":  "더플랜컴퓨터아트회계학원 이천점 이천시",
+        "url":  "https://map.naver.com/p/search/%EB%8D%94%ED%94%8C%EB%9E%9C%EC%BB%B4%ED%93%A8%ED%84%B0%EC%95%84%ED%8A%B8%ED%9A%8C%EA%B3%84%ED%95%99%EC%9B%90%20%EC%9D%B4%EC%B2%9C%EC%A0%90%20%EC%9D%B4%EC%B2%9C%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "더플랜컴퓨터아트회계학원 이천점",
+        "registeredAddress":  "경기 이천시 관고동"
+    },
+    {
+        "sourceRowNumber":  38,
+        "query":  "평택시 보건소 평택",
+        "url":  "https://map.naver.com/p/search/%ED%8F%89%ED%83%9D%EC%8B%9C%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%ED%8F%89%ED%83%9D",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  39,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  40,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  41,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  42,
+        "query":  "대한안과의사회 평택 밝은성모안과 평택",
+        "url":  "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%ED%8F%89%ED%83%9D%20%EB%B0%9D%EC%9D%80%EC%84%B1%EB%AA%A8%EC%95%88%EA%B3%BC%20%ED%8F%89%ED%83%9D",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  43,
+        "query":  "비트컴퓨터학원 평택",
+        "url":  "https://map.naver.com/p/search/%EB%B9%84%ED%8A%B8%EC%BB%B4%ED%93%A8%ED%84%B0%ED%95%99%EC%9B%90%20%ED%8F%89%ED%83%9D",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "비트컴퓨터학원",
+        "registeredAddress":  "경기 평택시 비전동"
+    },
+    {
+        "sourceRowNumber":  44,
+        "query":  "더플랜컴퓨터아트회계학원 평택점 평택시",
+        "url":  "https://map.naver.com/p/search/%EB%8D%94%ED%94%8C%EB%9E%9C%EC%BB%B4%ED%93%A8%ED%84%B0%EC%95%84%ED%8A%B8%ED%9A%8C%EA%B3%84%ED%95%99%EC%9B%90%20%ED%8F%89%ED%83%9D%EC%A0%90%20%ED%8F%89%ED%83%9D%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "더플랜컴퓨터아트회계학원 평택점",
+        "registeredAddress":  "경기 평택시 용이동"
+    },
+    {
+        "sourceRowNumber":  45,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  46,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  47,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  48,
+        "query":  "다래한방병원 화성",
+        "url":  "https://map.naver.com/p/search/%EB%8B%A4%EB%9E%98%ED%95%9C%EB%B0%A9%EB%B3%91%EC%9B%90%20%ED%99%94%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "다래한방병원",
+        "registeredAddress":  "경기 화성시 만세구 향남읍"
+    },
+    {
+        "sourceRowNumber":  49,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  50,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  51,
+        "query":  "남한산성 행궁 광주",
+        "url":  "https://map.naver.com/p/search/%EB%82%A8%ED%95%9C%EC%82%B0%EC%84%B1%20%ED%96%89%EA%B6%81%20%EA%B4%91%EC%A3%BC",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "남한산성행궁",
+        "registeredAddress":  "경기 광주시 남한산성면"
+    },
+    {
+        "sourceRowNumber":  52,
+        "query":  "중앙컴퓨터전산회계학원 광주",
+        "url":  "https://map.naver.com/p/search/%EC%A4%91%EC%95%99%EC%BB%B4%ED%93%A8%ED%84%B0%EC%A0%84%EC%82%B0%ED%9A%8C%EA%B3%84%ED%95%99%EC%9B%90%20%EA%B4%91%EC%A3%BC",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "중앙컴퓨터전산회계학원",
+        "registeredAddress":  "경기 광주시 경안동"
+    },
+    {
+        "sourceRowNumber":  53,
+        "query":  "연세미래의원 남구",
+        "url":  "https://map.naver.com/p/search/%EC%97%B0%EC%84%B8%EB%AF%B8%EB%9E%98%EC%9D%98%EC%9B%90%20%EB%82%A8%EA%B5%AC",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "연세미래의원",
+        "registeredAddress":  "전남광주 남구 진월동"
+    },
+    {
+        "sourceRowNumber":  54,
+        "query":  "군포시 미디어센터 군포",
+        "url":  "https://map.naver.com/p/entry/place/1426710057",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "군포시미디어센터",
+        "registeredAddress":  "경기 군포시 산본동"
+    },
+    {
+        "sourceRowNumber":  55,
+        "query":  "군포시 보건소 군포",
+        "url":  "https://map.naver.com/p/search/%EA%B5%B0%ED%8F%AC%EC%8B%9C%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EA%B5%B0%ED%8F%AC",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "군포시보건소",
+        "registeredAddress":  "경기 군포시 부곡동"
+    },
+    {
+        "sourceRowNumber":  56,
+        "query":  "군포시 노동종합복지관 군포",
+        "url":  "https://map.naver.com/p/search/%EA%B5%B0%ED%8F%AC%EC%8B%9C%20%EB%85%B8%EB%8F%99%EC%A2%85%ED%95%A9%EB%B3%B5%EC%A7%80%EA%B4%80%20%EA%B5%B0%ED%8F%AC",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "군포시노동종합복지관",
+        "registeredAddress":  "경기 군포시 당동"
+    },
+    {
+        "sourceRowNumber":  57,
+        "query":  "군포시청주차장 군포시",
+        "url":  "https://map.naver.com/p/search/%EA%B5%B0%ED%8F%AC%EC%8B%9C%EC%B2%AD%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EA%B5%B0%ED%8F%AC%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "군포시청주차장",
+        "registeredAddress":  "경기 군포시 금정동"
+    },
+    {
+        "sourceRowNumber":  58,
+        "query":  "군포시 평생학습원 군포",
+        "url":  "https://map.naver.com/p/search/%EA%B5%B0%ED%8F%AC%EC%8B%9C%20%ED%8F%89%EC%83%9D%ED%95%99%EC%8A%B5%EC%9B%90%20%EA%B5%B0%ED%8F%AC",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "군포시평생학습원",
+        "registeredAddress":  "경기 군포시 당동"
+    },
+    {
+        "sourceRowNumber":  59,
+        "query":  "군포문화재단 군포시",
+        "url":  "https://map.naver.com/p/search/%EA%B5%B0%ED%8F%AC%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8%20%EA%B5%B0%ED%8F%AC%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "군포문화재단",
+        "registeredAddress":  "경기 군포시 산본동"
+    },
+    {
+        "sourceRowNumber":  60,
+        "query":  "군포시 문화예술회관 군포",
+        "url":  "https://map.naver.com/p/search/%EA%B5%B0%ED%8F%AC%EC%8B%9C%20%EB%AC%B8%ED%99%94%EC%98%88%EC%88%A0%ED%9A%8C%EA%B4%80%20%EA%B5%B0%ED%8F%AC",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "군포문화예술회관",
+        "registeredAddress":  "경기 군포시 산본동"
+    },
+    {
+        "sourceRowNumber":  61,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  62,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  63,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  64,
+        "query":  "군포시 초막골생태공원 군포",
+        "url":  "https://map.naver.com/p/search/%EA%B5%B0%ED%8F%AC%EC%8B%9C%20%EC%B4%88%EB%A7%89%EA%B3%A8%EC%83%9D%ED%83%9C%EA%B3%B5%EC%9B%90%20%EA%B5%B0%ED%8F%AC",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "초막골생태공원",
+        "registeredAddress":  "경기 군포시 산본동"
+    },
+    {
+        "sourceRowNumber":  65,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  66,
+        "query":  "지샘병원 군포",
+        "url":  "https://map.naver.com/p/search/%EC%A7%80%EC%83%98%EB%B3%91%EC%9B%90%20%EA%B5%B0%ED%8F%AC",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  67,
+        "query":  "원광대학교 의과대학 산본병원 군포",
+        "url":  "https://map.naver.com/p/search/%EC%9B%90%EA%B4%91%EB%8C%80%ED%95%99%EA%B5%90%20%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99%20%EC%82%B0%EB%B3%B8%EB%B3%91%EC%9B%90%20%EA%B5%B0%ED%8F%AC",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "원광대학교 산본병원",
+        "registeredAddress":  "경기 군포시 산본동"
+    },
+    {
+        "sourceRowNumber":  68,
+        "query":  "대한안과의사회 산본삼성안과 군포",
+        "url":  "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%EC%82%B0%EB%B3%B8%EC%82%BC%EC%84%B1%EC%95%88%EA%B3%BC%20%EA%B5%B0%ED%8F%AC",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  69,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  70,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  71,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  72,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  73,
+        "query":  "리지안안과 성남",
+        "url":  "https://map.naver.com/p/entry/place/11529736",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "리지안안과의원",
+        "registeredAddress":  "경기 성남시 분당구 구미동"
+    },
+    {
+        "sourceRowNumber":  74,
+        "query":  "대한안과의사회 연세독수리안과 성남",
+        "url":  "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%EC%97%B0%EC%84%B8%EB%8F%85%EC%88%98%EB%A6%AC%EC%95%88%EA%B3%BC%20%EC%84%B1%EB%82%A8",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  75,
+        "query":  "미금세브란스치과의원 성남",
+        "url":  "https://map.naver.com/p/entry/place/1708029328",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "미금세브란스치과의원",
+        "registeredAddress":  "경기 성남시 분당구 구미동"
+    },
+    {
+        "sourceRowNumber":  76,
+        "query":  "성남아트센터 성남",
+        "url":  "https://map.naver.com/p/search/%EC%84%B1%EB%82%A8%EC%95%84%ED%8A%B8%EC%84%BC%ED%84%B0%20%EC%84%B1%EB%82%A8",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  77,
+        "query":  "성남중앙병원 성남",
+        "url":  "https://map.naver.com/p/search/%EC%84%B1%EB%82%A8%EC%A4%91%EC%95%99%EB%B3%91%EC%9B%90%20%EC%84%B1%EB%82%A8",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  78,
+        "query":  "대한안과의사회 연세플러스안과 성남",
+        "url":  "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%EC%97%B0%EC%84%B8%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%95%88%EA%B3%BC%20%EC%84%B1%EB%82%A8",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  79,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  80,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  81,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  82,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  83,
+        "query":  "수원시립미술관 수원시",
+        "url":  "https://map.naver.com/p/search/%EC%88%98%EC%9B%90%EC%8B%9C%EB%A6%BD%EB%AF%B8%EC%88%A0%EA%B4%80%20%EC%88%98%EC%9B%90%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "수원시립미술관",
+        "registeredAddress":  "경기 수원시 팔달구 신풍동"
+    },
+    {
+        "sourceRowNumber":  84,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  85,
+        "query":  "경기아트센터 수원",
+        "url":  "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EC%95%84%ED%8A%B8%EC%84%BC%ED%84%B0%20%EC%88%98%EC%9B%90",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "경기아트센터",
+        "registeredAddress":  "경기 수원시 팔달구 인계동"
+    },
+    {
+        "sourceRowNumber":  86,
+        "query":  "경기도의료원 수원 수원",
+        "url":  "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%9D%98%EB%A3%8C%EC%9B%90%20%EC%88%98%EC%9B%90%20%EC%88%98%EC%9B%90",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "경기도의료원수원병원",
+        "registeredAddress":  "경기 수원시 장안구 정자동"
+    },
+    {
+        "sourceRowNumber":  87,
+        "query":  "사단법인 경기도시각장애인연합회 수원시",
+        "url":  "https://map.naver.com/p/search/%EC%82%AC%EB%8B%A8%EB%B2%95%EC%9D%B8%20%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%8B%9C%EA%B0%81%EC%9E%A5%EC%95%A0%EC%9D%B8%EC%97%B0%ED%95%A9%ED%9A%8C%20%EC%88%98%EC%9B%90%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "사단법인 경기도시각장애인연합회",
+        "registeredAddress":  "경기 수원시 팔달구 우만동"
+    },
+    {
+        "sourceRowNumber":  88,
+        "query":  "수원이안과의원 수원",
+        "url":  "https://map.naver.com/p/entry/place/11529335",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "수원이안과의원",
+        "registeredAddress":  "경기 수원시 팔달구 팔달로1가"
+    },
+    {
+        "sourceRowNumber":  89,
+        "query":  "힐정형외과 수원",
+        "url":  "https://map.naver.com/p/entry/place/35756669",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "힐정형외과의원",
+        "registeredAddress":  "경기 수원시 권선구 권선동"
+    },
+    {
+        "sourceRowNumber":  90,
+        "query":  "메트로치과 수원",
+        "url":  "https://map.naver.com/p/entry/place/11680537",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "메트로치과의원",
+        "registeredAddress":  "경기 수원시 팔달구 화서동"
+    },
+    {
+        "sourceRowNumber":  91,
+        "query":  "사람사랑치과 수원",
+        "url":  "https://map.naver.com/p/entry/place/11549712",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "사람사랑치과의원 수원점",
+        "registeredAddress":  "경기 수원시 장안구 조원동"
+    },
+    {
+        "sourceRowNumber":  92,
+        "query":  "삼성힐정형외과 수원",
+        "url":  "https://map.naver.com/p/entry/place/453330937",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "삼성힐정형외과의원",
+        "registeredAddress":  "경기 수원시 장안구 정자동"
+    },
+    {
+        "sourceRowNumber":  93,
+        "query":  "사람과자연협동조합 수원",
+        "url":  "https://map.naver.com/p/entry/place/1283412938",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "사람과자연협동조합 드론국가자격증 교육장",
+        "registeredAddress":  "경기 수원시 장안구 하광교동"
+    },
+    {
+        "sourceRowNumber":  94,
+        "query":  "가톨릭대학교 성빈센트병원 수원",
+        "url":  "https://map.naver.com/p/search/%EA%B0%80%ED%86%A8%EB%A6%AD%EB%8C%80%ED%95%99%EA%B5%90%20%EC%84%B1%EB%B9%88%EC%84%BC%ED%8A%B8%EB%B3%91%EC%9B%90%20%EC%88%98%EC%9B%90",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "가톨릭대학교 성빈센트병원",
+        "registeredAddress":  "경기 수원시 팔달구 지동"
+    },
+    {
+        "sourceRowNumber":  95,
+        "query":  "김기록치과 수원",
+        "url":  "https://map.naver.com/p/entry/place/35593503",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "김기록치과의원",
+        "registeredAddress":  "경기 수원시 영통구 매탄동"
+    },
+    {
+        "sourceRowNumber":  96,
+        "query":  "노블치과 수원",
+        "url":  "https://map.naver.com/p/entry/place/1967765521",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "노블치과의원 수원",
+        "registeredAddress":  "경기 수원시 장안구 조원동"
+    },
+    {
+        "sourceRowNumber":  97,
+        "query":  "에이치엠에스 피트니스 수원",
+        "url":  "https://map.naver.com/p/search/%EC%97%90%EC%9D%B4%EC%B9%98%EC%97%A0%EC%97%90%EC%8A%A4%20%ED%94%BC%ED%8A%B8%EB%8B%88%EC%8A%A4%20%EC%88%98%EC%9B%90",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  98,
+        "query":  "수원독일보청기 수원",
+        "url":  "https://map.naver.com/p/search/%EC%88%98%EC%9B%90%EB%8F%85%EC%9D%BC%EB%B3%B4%EC%B2%AD%EA%B8%B0%20%EC%88%98%EC%9B%90",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "수원독일보청기",
+        "registeredAddress":  "경기 수원시 장안구 파장동"
+    },
+    {
+        "sourceRowNumber":  99,
+        "query":  "윌스기념병원 수원",
+        "url":  "https://map.naver.com/p/search/%EC%9C%8C%EC%8A%A4%EA%B8%B0%EB%85%90%EB%B3%91%EC%9B%90%20%EC%88%98%EC%9B%90",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "토마스의료재단 윌스기념병원",
+        "registeredAddress":  "경기 수원시 팔달구 인계동"
+    },
+    {
+        "sourceRowNumber":  100,
+        "query":  "진미통닭 수원",
+        "url":  "https://map.naver.com/p/search/%EC%A7%84%EB%AF%B8%ED%86%B5%EB%8B%AD%20%EC%88%98%EC%9B%90",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "진미통닭",
+        "registeredAddress":  "경기 수원시 팔달구 남수동"
+    },
+    {
+        "sourceRowNumber":  101,
+        "query":  "남문통닭 수원",
+        "url":  "https://map.naver.com/p/search/%EB%82%A8%EB%AC%B8%ED%86%B5%EB%8B%AD%20%EC%88%98%EC%9B%90",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "남문통닭 본점",
+        "registeredAddress":  "경기 수원시 팔달구 팔달로1가"
+    },
+    {
+        "sourceRowNumber":  102,
+        "query":  "대한안과의사회 제일연세안과 수원",
+        "url":  "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%EC%A0%9C%EC%9D%BC%EC%97%B0%EC%84%B8%EC%95%88%EA%B3%BC%20%EC%88%98%EC%9B%90",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  103,
+        "query":  "대한안과의사회 올바른안과 수원",
+        "url":  "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%EC%98%AC%EB%B0%94%EB%A5%B8%EC%95%88%EA%B3%BC%20%EC%88%98%EC%9B%90",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  104,
+        "query":  "수원자생한방병원 수원",
+        "url":  "https://map.naver.com/p/entry/place/36476254",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "수원자생한방병원",
+        "registeredAddress":  "경기 수원시 영통구 영통동"
+    },
+    {
+        "sourceRowNumber":  105,
+        "query":  "서울88의원 수원",
+        "url":  "https://map.naver.com/p/search/%EC%84%9C%EC%9A%B888%EC%9D%98%EC%9B%90%20%EC%88%98%EC%9B%90",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "서울88의원",
+        "registeredAddress":  "경기 수원시 팔달구 인계동"
+    },
+    {
+        "sourceRowNumber":  106,
+        "query":  "아주대학교병원 수원",
+        "url":  "https://map.naver.com/p/search/%EC%95%84%EC%A3%BC%EB%8C%80%ED%95%99%EA%B5%90%EB%B3%91%EC%9B%90%20%EC%88%98%EC%9B%90",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "아주대학교병원",
+        "registeredAddress":  "경기 수원시 영통구 원천동"
+    },
+    {
+        "sourceRowNumber":  107,
+        "query":  "대원평생교육원 수원",
+        "url":  "https://map.naver.com/p/entry/place/1408644175",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "대원평생교육원",
+        "registeredAddress":  "경기 수원시 권선구 서둔동"
+    },
+    {
+        "sourceRowNumber":  108,
+        "query":  "영진아이티학원 수원",
+        "url":  "https://map.naver.com/p/entry/place/1416595335",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "영진아이티학원",
+        "registeredAddress":  "경기 수원시 팔달구 중동"
+    },
+    {
+        "sourceRowNumber":  109,
+        "query":  "백성병원 수원",
+        "url":  "https://map.naver.com/p/search/%EB%B0%B1%EC%84%B1%EB%B3%91%EC%9B%90%20%EC%88%98%EC%9B%90",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "백성병원",
+        "registeredAddress":  "경기 수원시 팔달구 인계동"
+    },
+    {
+        "sourceRowNumber":  110,
+        "query":  "대한안과의사회 광교연세안과 수원",
+        "url":  "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%EA%B4%91%EA%B5%90%EC%97%B0%EC%84%B8%EC%95%88%EA%B3%BC%20%EC%88%98%EC%9B%90",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  111,
+        "query":  "밝은미소안과 수원",
+        "url":  "https://map.naver.com/p/entry/place/11886176",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "밝은미소안과의원",
+        "registeredAddress":  "경기 수원시 권선구 권선동"
+    },
+    {
+        "sourceRowNumber":  112,
+        "query":  "동수원한방병원 재활의학과 수원시",
+        "url":  "https://map.naver.com/p/search/%EB%8F%99%EC%88%98%EC%9B%90%ED%95%9C%EB%B0%A9%EB%B3%91%EC%9B%90%20%EC%9E%AC%ED%99%9C%EC%9D%98%ED%95%99%EA%B3%BC%20%EC%88%98%EC%9B%90%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "동수원한방병원 재활의학과",
+        "registeredAddress":  "경기 수원시 팔달구 우만동"
+    },
+    {
+        "sourceRowNumber":  113,
+        "query":  "수원중앙병원 수원",
+        "url":  "https://map.naver.com/p/search/%EC%88%98%EC%9B%90%EC%A4%91%EC%95%99%EB%B3%91%EC%9B%90%20%EC%88%98%EC%9B%90",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "수원중앙병원",
+        "registeredAddress":  "경기 수원시 권선구 권선동"
+    },
+    {
+        "sourceRowNumber":  114,
+        "query":  "동수원병원 수원",
+        "url":  "https://map.naver.com/p/search/%EB%8F%99%EC%88%98%EC%9B%90%EB%B3%91%EC%9B%90%20%EC%88%98%EC%9B%90",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  115,
+        "query":  "대한안과의사회 성모안과 수원",
+        "url":  "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%EC%84%B1%EB%AA%A8%EC%95%88%EA%B3%BC%20%EC%88%98%EC%9B%90",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  116,
+        "query":  "안성시 보건소 안성",
+        "url":  "https://map.naver.com/p/search/%EC%95%88%EC%84%B1%EC%8B%9C%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "안성시보건소",
+        "registeredAddress":  "경기 안성시 도기동"
+    },
+    {
+        "sourceRowNumber":  117,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  118,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  119,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  120,
+        "query":  "경기도의료원 안성 안성",
+        "url":  "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%9D%98%EB%A3%8C%EC%9B%90%20%EC%95%88%EC%84%B1%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  121,
+        "query":  "더플랜컴퓨터학원 공도점 안성",
+        "url":  "https://map.naver.com/p/search/%EB%8D%94%ED%94%8C%EB%9E%9C%EC%BB%B4%ED%93%A8%ED%84%B0%ED%95%99%EC%9B%90%20%EA%B3%B5%EB%8F%84%EC%A0%90%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  122,
+        "query":  "안성성모병원 안성",
+        "url":  "https://map.naver.com/p/search/%EC%95%88%EC%84%B1%EC%84%B1%EB%AA%A8%EB%B3%91%EC%9B%90%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "안성성모병원",
+        "registeredAddress":  "경기 안성시 서인동"
+    },
+    {
+        "sourceRowNumber":  123,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  124,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  125,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  126,
+        "query":  "안양샘병원 안양",
+        "url":  "https://map.naver.com/p/search/%EC%95%88%EC%96%91%EC%83%98%EB%B3%91%EC%9B%90%20%EC%95%88%EC%96%91",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "효산의료재단 안양샘병원",
+        "registeredAddress":  "경기 안양시 만안구 안양동"
+    },
+    {
+        "sourceRowNumber":  127,
+        "query":  "대한안과의사회 글로벌안과 안양",
+        "url":  "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%EA%B8%80%EB%A1%9C%EB%B2%8C%EC%95%88%EA%B3%BC%20%EC%95%88%EC%96%91",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  128,
+        "query":  "한림대학교 성심병원 안양",
+        "url":  "https://map.naver.com/p/search/%ED%95%9C%EB%A6%BC%EB%8C%80%ED%95%99%EA%B5%90%20%EC%84%B1%EC%8B%AC%EB%B3%91%EC%9B%90%20%EC%95%88%EC%96%91",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "한림대학교성심병원",
+        "registeredAddress":  "경기 안양시 동안구 평촌동"
+    },
+    {
+        "sourceRowNumber":  129,
+        "query":  "대한안과의사회 삼성밝은안과 안양",
+        "url":  "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%EC%82%BC%EC%84%B1%EB%B0%9D%EC%9D%80%EC%95%88%EA%B3%BC%20%EC%95%88%EC%96%91",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  130,
+        "query":  "서울와이즈치과 안양",
+        "url":  "https://map.naver.com/p/entry/place/1099354889",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "서울와이즈치과의원",
+        "registeredAddress":  "경기 안양시 만안구 안양동"
+    },
+    {
+        "sourceRowNumber":  131,
+        "query":  "대한안과의사회 안양 서울안과 안양",
+        "url":  "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%EC%95%88%EC%96%91%20%EC%84%9C%EC%9A%B8%EC%95%88%EA%B3%BC%20%EC%95%88%EC%96%91",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  132,
+        "query":  "여주시 보건소 여주",
+        "url":  "https://map.naver.com/p/search/%EC%97%AC%EC%A3%BC%EC%8B%9C%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EC%97%AC%EC%A3%BC",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "여주시보건소",
+        "registeredAddress":  "경기 여주시 상동"
+    },
+    {
+        "sourceRowNumber":  133,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  134,
+        "query":  "대한안과의사회 오산 밝은안과 오산",
+        "url":  "https://map.naver.com/p/search/%EB%8C%80%ED%95%9C%EC%95%88%EA%B3%BC%EC%9D%98%EC%82%AC%ED%9A%8C%20%EC%98%A4%EC%82%B0%20%EB%B0%9D%EC%9D%80%EC%95%88%EA%B3%BC%20%EC%98%A4%EC%82%B0",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  135,
+        "query":  "독개다리 및 BEAT131 전시관 파주",
+        "url":  "https://map.naver.com/p/search/%EB%8F%85%EA%B0%9C%EB%8B%A4%EB%A6%AC%20%EB%B0%8F%20BEAT131%20%EC%A0%84%EC%8B%9C%EA%B4%80%20%ED%8C%8C%EC%A3%BC",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  136,
+        "query":  "경기도의료원 의정부 의정부",
+        "url":  "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%9D%98%EB%A3%8C%EC%9B%90%20%EC%9D%98%EC%A0%95%EB%B6%80%20%EC%9D%98%EC%A0%95%EB%B6%80",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  137,
+        "query":  "문산중앙병원 파주시",
+        "url":  "https://map.naver.com/p/search/%EB%AC%B8%EC%82%B0%EC%A4%91%EC%95%99%EB%B3%91%EC%9B%90%20%ED%8C%8C%EC%A3%BC%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "문산중앙병원",
+        "registeredAddress":  "경기 파주시 문산읍"
+    },
+    {
+        "sourceRowNumber":  138,
+        "query":  "경기도의료원 포천 포천",
+        "url":  "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%9D%98%EB%A3%8C%EC%9B%90%20%ED%8F%AC%EC%B2%9C%20%ED%8F%AC%EC%B2%9C",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "경기도의료원포천병원",
+        "registeredAddress":  "경기 포천시 신읍동"
+    },
+    {
+        "sourceRowNumber":  139,
+        "query":  "가평힐링캠프 가평군",
+        "url":  "https://map.naver.com/p/search/%EA%B0%80%ED%8F%89%ED%9E%90%EB%A7%81%EC%BA%A0%ED%94%84%20%EA%B0%80%ED%8F%89%EA%B5%B0",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "가평힐링캠프",
+        "registeredAddress":  "경기 가평군 상면"
+    },
+    {
+        "sourceRowNumber":  140,
+        "query":  "축령산 자연휴양림 남양주",
+        "url":  "https://map.naver.com/p/search/%EC%B6%95%EB%A0%B9%EC%82%B0%20%EC%9E%90%EC%97%B0%ED%9C%B4%EC%96%91%EB%A6%BC%20%EB%82%A8%EC%96%91%EC%A3%BC",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "축령산자연휴양림",
+        "registeredAddress":  "경기 남양주시 수동면"
+    },
+    {
+        "sourceRowNumber":  141,
+        "query":  "강씨봉 자연휴양림 가평",
+        "url":  "https://map.naver.com/p/search/%EA%B0%95%EC%94%A8%EB%B4%89%20%EC%9E%90%EC%97%B0%ED%9C%B4%EC%96%91%EB%A6%BC%20%EA%B0%80%ED%8F%89",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "강씨봉자연휴양림",
+        "registeredAddress":  "경기 가평군 북면"
+    },
+    {
+        "sourceRowNumber":  142,
+        "query":  "잣향기 푸른숲 가평",
+        "url":  "https://map.naver.com/p/search/%EC%9E%A3%ED%96%A5%EA%B8%B0%20%ED%91%B8%EB%A5%B8%EC%88%B2%20%EA%B0%80%ED%8F%89",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "경기도잣향기푸른숲",
+        "registeredAddress":  "경기 가평군 상면"
+    },
+    {
+        "sourceRowNumber":  143,
+        "query":  "오산시유도회관 오산시",
+        "url":  "https://map.naver.com/p/search/%EC%98%A4%EC%82%B0%EC%8B%9C%EC%9C%A0%EB%8F%84%ED%9A%8C%EA%B4%80%20%EC%98%A4%EC%82%B0%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "오산시유도회관",
+        "registeredAddress":  "경기 오산시 원동"
+    },
+    {
+        "sourceRowNumber":  144,
+        "query":  "경기도 사격테마파크 화성",
+        "url":  "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%82%AC%EA%B2%A9%ED%85%8C%EB%A7%88%ED%8C%8C%ED%81%AC%20%ED%99%94%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "경기도사격테마파크",
+        "registeredAddress":  "경기 화성시 만세구 양감면"
+    },
+    {
+        "sourceRowNumber":  145,
+        "query":  "수원화성 수원",
+        "url":  "https://map.naver.com/p/search/%EC%88%98%EC%9B%90%ED%99%94%EC%84%B1%20%EC%88%98%EC%9B%90",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "화성행궁",
+        "registeredAddress":  "경기 수원시 팔달구 남창동"
+    },
+    {
+        "sourceRowNumber":  146,
+        "query":  "신흥원 수원시",
+        "url":  "https://map.naver.com/p/search/%EC%8B%A0%ED%9D%A5%EC%9B%90%20%EC%88%98%EC%9B%90%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "신흥원",
+        "registeredAddress":  "경기 수원시 팔달구 남수동"
+    },
+    {
+        "sourceRowNumber":  147,
+        "query":  "수원박물관 수원",
+        "url":  "https://map.naver.com/p/search/%EC%88%98%EC%9B%90%EB%B0%95%EB%AC%BC%EA%B4%80%20%EC%88%98%EC%9B%90",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "수원박물관",
+        "registeredAddress":  "경기 수원시 영통구 이의동"
+    },
+    {
+        "sourceRowNumber":  148,
+        "query":  "수원화성박물관 수원",
+        "url":  "https://map.naver.com/p/search/%EC%88%98%EC%9B%90%ED%99%94%EC%84%B1%EB%B0%95%EB%AC%BC%EA%B4%80%20%EC%88%98%EC%9B%90",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "수원화성박물관",
+        "registeredAddress":  "경기 수원시 팔달구 매향동"
+    },
+    {
+        "sourceRowNumber":  149,
+        "query":  "광교박물관 수원",
+        "url":  "https://map.naver.com/p/search/%EA%B4%91%EA%B5%90%EB%B0%95%EB%AC%BC%EA%B4%80%20%EC%88%98%EC%9B%90",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "수원광교박물관",
+        "registeredAddress":  "경기 수원시 영통구 이의동"
+    },
+    {
+        "sourceRowNumber":  150,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  151,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  152,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  153,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  154,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  155,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  156,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  157,
+        "query":  "용인자연휴양림 용인",
+        "url":  "https://map.naver.com/p/search/%EC%9A%A9%EC%9D%B8%EC%9E%90%EC%97%B0%ED%9C%B4%EC%96%91%EB%A6%BC%20%EC%9A%A9%EC%9D%B8",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "용인자연휴양림",
+        "registeredAddress":  "경기 용인시 처인구 모현읍"
+    },
+    {
+        "sourceRowNumber":  158,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  159,
+        "query":  "고양시 덕양구 보건소 고양",
+        "url":  "https://map.naver.com/p/search/%EA%B3%A0%EC%96%91%EC%8B%9C%20%EB%8D%95%EC%96%91%EA%B5%AC%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EA%B3%A0%EC%96%91",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "고양시덕양구보건소",
+        "registeredAddress":  "경기 고양시 덕양구 주교동"
+    },
+    {
+        "sourceRowNumber":  160,
+        "query":  "고양시 일산동구 보건소 고양",
+        "url":  "https://map.naver.com/p/search/%EA%B3%A0%EC%96%91%EC%8B%9C%20%EC%9D%BC%EC%82%B0%EB%8F%99%EA%B5%AC%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EA%B3%A0%EC%96%91",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "고양시일산동구보건소",
+        "registeredAddress":  "경기 고양시 일산동구 백석동"
+    },
+    {
+        "sourceRowNumber":  161,
+        "query":  "고양시 일산서구 보건소 고양",
+        "url":  "https://map.naver.com/p/search/%EA%B3%A0%EC%96%91%EC%8B%9C%20%EC%9D%BC%EC%82%B0%EC%84%9C%EA%B5%AC%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EA%B3%A0%EC%96%91",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "고양시일산서구보건소",
+        "registeredAddress":  "경기 고양시 일산서구 일산동"
+    },
+    {
+        "sourceRowNumber":  162,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  163,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  164,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  165,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  166,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  167,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  168,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  169,
+        "query":  "상록수보건소 안산",
+        "url":  "https://map.naver.com/p/search/%EC%83%81%EB%A1%9D%EC%88%98%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EC%95%88%EC%82%B0",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  170,
+        "query":  "단원보건소 안산",
+        "url":  "https://map.naver.com/p/search/%EB%8B%A8%EC%9B%90%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EC%95%88%EC%82%B0",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  171,
+        "query":  "안산문화예술의전당 안산",
+        "url":  "https://map.naver.com/p/search/%EC%95%88%EC%82%B0%EB%AC%B8%ED%99%94%EC%98%88%EC%88%A0%EC%9D%98%EC%A0%84%EB%8B%B9%20%EC%95%88%EC%82%B0",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "안산문화예술의전당",
+        "registeredAddress":  "경기 안산시 단원구 고잔동"
+    },
+    {
+        "sourceRowNumber":  172,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  173,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  174,
+        "query":  "안산어촌민속박물관 안산",
+        "url":  "https://map.naver.com/p/entry/place/20027722",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "안산어촌민속박물관",
+        "registeredAddress":  "경기 안산시 단원구 선감동"
+    },
+    {
+        "sourceRowNumber":  175,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  176,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  177,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  178,
+        "query":  "시흥시 목공체험장 시흥",
+        "url":  "https://map.naver.com/p/search/%EC%8B%9C%ED%9D%A5%EC%8B%9C%20%EB%AA%A9%EA%B3%B5%EC%B2%B4%ED%97%98%EC%9E%A5%20%EC%8B%9C%ED%9D%A5",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  179,
+        "query":  "시흥시 해양생태과학관 시흥",
+        "url":  "https://map.naver.com/p/search/%EC%8B%9C%ED%9D%A5%EC%8B%9C%20%ED%95%B4%EC%96%91%EC%83%9D%ED%83%9C%EA%B3%BC%ED%95%99%EA%B4%80%20%EC%8B%9C%ED%9D%A5",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "해양생태과학관",
+        "registeredAddress":  "경기 시흥시 거북섬서로"
+    },
+    {
+        "sourceRowNumber":  180,
+        "query":  "시흥에코센터 시흥",
+        "url":  "https://map.naver.com/p/search/%EC%8B%9C%ED%9D%A5%EC%97%90%EC%BD%94%EC%84%BC%ED%84%B0%20%EC%8B%9C%ED%9D%A5",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "시흥에코센터",
+        "registeredAddress":  "경기 시흥시 정왕동"
+    },
+    {
+        "sourceRowNumber":  181,
+        "query":  "시흥오이도박물관 시흥",
+        "url":  "https://map.naver.com/p/search/%EC%8B%9C%ED%9D%A5%EC%98%A4%EC%9D%B4%EB%8F%84%EB%B0%95%EB%AC%BC%EA%B4%80%20%EC%8B%9C%ED%9D%A5",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "시흥오이도박물관",
+        "registeredAddress":  "경기 시흥시 정왕동"
+    },
+    {
+        "sourceRowNumber":  182,
+        "query":  "시흥시 곤충전시체험관 벅스리움 시흥시",
+        "url":  "https://map.naver.com/p/search/%EC%8B%9C%ED%9D%A5%EC%8B%9C%20%EA%B3%A4%EC%B6%A9%EC%A0%84%EC%8B%9C%EC%B2%B4%ED%97%98%EA%B4%80%20%EB%B2%85%EC%8A%A4%EB%A6%AC%EC%9B%80%20%EC%8B%9C%ED%9D%A5%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "시흥시 곤충전시체험관 벅스리움",
+        "registeredAddress":  "경기 시흥시 정왕동"
+    },
+    {
+        "sourceRowNumber":  183,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  184,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  185,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  186,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  187,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  188,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  189,
+        "query":  "김포시 평생학습관 김포",
+        "url":  "https://map.naver.com/p/entry/place/13285502",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "김포시 평생학습관",
+        "registeredAddress":  "경기 김포시 운양동"
+    },
+    {
+        "sourceRowNumber":  190,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  191,
+        "query":  "금빛수로 보트하우스 김포",
+        "url":  "https://map.naver.com/p/search/%EA%B8%88%EB%B9%9B%EC%88%98%EB%A1%9C%20%EB%B3%B4%ED%8A%B8%ED%95%98%EC%9A%B0%EC%8A%A4%20%EA%B9%80%ED%8F%AC",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "금빛수로 보트하우스",
+        "registeredAddress":  "경기 김포시 장기동"
+    },
+    {
+        "sourceRowNumber":  192,
+        "query":  "애기봉평화생태공원 김포",
+        "url":  "https://map.naver.com/p/search/%EC%95%A0%EA%B8%B0%EB%B4%89%ED%8F%89%ED%99%94%EC%83%9D%ED%83%9C%EA%B3%B5%EC%9B%90%20%EA%B9%80%ED%8F%AC",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "애기봉평화생태공원",
+        "registeredAddress":  "경기 김포시 월곶면"
+    },
+    {
+        "sourceRowNumber":  193,
+        "query":  "김포도시공사 체육 및 문화시설 이용료 김포",
+        "url":  "https://map.naver.com/p/search/%EA%B9%80%ED%8F%AC%EB%8F%84%EC%8B%9C%EA%B3%B5%EC%82%AC%20%EC%B2%B4%EC%9C%A1%20%EB%B0%8F%20%EB%AC%B8%ED%99%94%EC%8B%9C%EC%84%A4%20%EC%9D%B4%EC%9A%A9%EB%A3%8C%20%EA%B9%80%ED%8F%AC",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  194,
+        "query":  "김포시 공영주차장 주차료 김포",
+        "url":  "https://map.naver.com/p/search/%EA%B9%80%ED%8F%AC%EC%8B%9C%20%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%A3%BC%EC%B0%A8%EB%A3%8C%20%EA%B9%80%ED%8F%AC",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  195,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  196,
+        "query":  "의정부시 보건소 의정부",
+        "url":  "https://map.naver.com/p/search/%EC%9D%98%EC%A0%95%EB%B6%80%EC%8B%9C%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EC%9D%98%EC%A0%95%EB%B6%80",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  197,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  198,
+        "query":  "의정부실내빙상장 의정부",
+        "url":  "https://map.naver.com/p/search/%EC%9D%98%EC%A0%95%EB%B6%80%EC%8B%A4%EB%82%B4%EB%B9%99%EC%83%81%EC%9E%A5%20%EC%9D%98%EC%A0%95%EB%B6%80",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "의정부 실내빙상장",
+        "registeredAddress":  "경기 의정부시 녹양동"
+    },
+    {
+        "sourceRowNumber":  199,
+        "query":  "의정부컬링경기장 의정부",
+        "url":  "https://map.naver.com/p/search/%EC%9D%98%EC%A0%95%EB%B6%80%EC%BB%AC%EB%A7%81%EA%B2%BD%EA%B8%B0%EC%9E%A5%20%EC%9D%98%EC%A0%95%EB%B6%80",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "의정부컬링경기장",
+        "registeredAddress":  "경기 의정부시 녹양동"
+    },
+    {
+        "sourceRowNumber":  200,
+        "query":  "의정부체육관 의정부",
+        "url":  "https://map.naver.com/p/search/%EC%9D%98%EC%A0%95%EB%B6%80%EC%B2%B4%EC%9C%A1%EA%B4%80%20%EC%9D%98%EC%A0%95%EB%B6%80",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  201,
+        "query":  "의정부자전거경기장 의정부",
+        "url":  "https://map.naver.com/p/entry/place/20123049",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "의정부자전거경기장",
+        "registeredAddress":  "경기 의정부시 녹양동"
+    },
+    {
+        "sourceRowNumber":  202,
+        "query":  "의정부종합운동장 제1주차장 의정부시",
+        "url":  "https://map.naver.com/p/search/%EC%9D%98%EC%A0%95%EB%B6%80%EC%A2%85%ED%95%A9%EC%9A%B4%EB%8F%99%EC%9E%A5%20%EC%A0%9C1%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%9D%98%EC%A0%95%EB%B6%80%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "의정부종합운동장 제1주차장",
+        "registeredAddress":  "경기 의정부시 녹양동"
+    },
+    {
+        "sourceRowNumber":  203,
+        "query":  "신곡실내배드민턴장 의정부",
+        "url":  "https://map.naver.com/p/entry/place/1888021480",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "신곡실내배드민턴장",
+        "registeredAddress":  "경기 의정부시 신곡동"
+    },
+    {
+        "sourceRowNumber":  204,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  205,
+        "query":  "송산배수지테니스장 의정부",
+        "url":  "https://map.naver.com/p/entry/place/19234685",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "송산배수지테니스장",
+        "registeredAddress":  "경기 의정부시 부용로214번길 51"
+    },
+    {
+        "sourceRowNumber":  206,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  207,
+        "query":  "종합운동장테니스장 의정부",
+        "url":  "https://map.naver.com/p/search/%EC%A2%85%ED%95%A9%EC%9A%B4%EB%8F%99%EC%9E%A5%ED%85%8C%EB%8B%88%EC%8A%A4%EC%9E%A5%20%EC%9D%98%EC%A0%95%EB%B6%80",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  208,
+        "query":  "푸른마당테니스장 의정부",
+        "url":  "https://map.naver.com/p/search/%ED%91%B8%EB%A5%B8%EB%A7%88%EB%8B%B9%ED%85%8C%EB%8B%88%EC%8A%A4%EC%9E%A5%20%EC%9D%98%EC%A0%95%EB%B6%80",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "푸른마당테니스장",
+        "registeredAddress":  "경기 의정부시 민락동"
+    },
+    {
+        "sourceRowNumber":  209,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  210,
+        "query":  "직동축구장 의정부",
+        "url":  "https://map.naver.com/p/search/%EC%A7%81%EB%8F%99%EC%B6%95%EA%B5%AC%EC%9E%A5%20%EC%9D%98%EC%A0%95%EB%B6%80",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "직동축구장",
+        "registeredAddress":  "경기 의정부시 의정부동"
+    },
+    {
+        "sourceRowNumber":  211,
+        "query":  "곤제축구장 의정부",
+        "url":  "https://map.naver.com/p/search/%EA%B3%A4%EC%A0%9C%EC%B6%95%EA%B5%AC%EC%9E%A5%20%EC%9D%98%EC%A0%95%EB%B6%80",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  212,
+        "query":  "활기체육공원축구장스탠드 의정부시",
+        "url":  "https://map.naver.com/p/search/%ED%99%9C%EA%B8%B0%EC%B2%B4%EC%9C%A1%EA%B3%B5%EC%9B%90%EC%B6%95%EA%B5%AC%EC%9E%A5%EC%8A%A4%ED%83%A0%EB%93%9C%20%EC%9D%98%EC%A0%95%EB%B6%80%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "활기체육공원축구장스탠드",
+        "registeredAddress":  "경기 의정부시 민락동"
+    },
+    {
+        "sourceRowNumber":  213,
+        "query":  "천보탁구장 의정부",
+        "url":  "https://map.naver.com/p/entry/place/1839175705",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "천보탁구장",
+        "registeredAddress":  "경기 의정부시 금오동"
+    },
+    {
+        "sourceRowNumber":  214,
+        "query":  "민락국민체육센터 의정부",
+        "url":  "https://map.naver.com/p/entry/place/1271854175",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "민락 국민체육센터",
+        "registeredAddress":  "경기 의정부시 민락동"
+    },
+    {
+        "sourceRowNumber":  215,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  216,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  217,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  218,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  219,
+        "query":  "광명동굴 광명",
+        "url":  "https://map.naver.com/p/search/%EA%B4%91%EB%AA%85%EB%8F%99%EA%B5%B4%20%EA%B4%91%EB%AA%85",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "광명동굴",
+        "registeredAddress":  "경기 광명시 가학동"
+    },
+    {
+        "sourceRowNumber":  220,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  221,
+        "query":  "광명새움병원 광명",
+        "url":  "https://map.naver.com/p/entry/place/33400003",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "광명새움병원",
+        "registeredAddress":  "경기 광명시 소하동"
+    },
+    {
+        "sourceRowNumber":  222,
+        "query":  "군포보건소 군포",
+        "url":  "https://map.naver.com/p/search/%EA%B5%B0%ED%8F%AC%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EA%B5%B0%ED%8F%AC",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  223,
+        "query":  "평생학습원 군포",
+        "url":  "https://map.naver.com/p/search/%ED%8F%89%EC%83%9D%ED%95%99%EC%8A%B5%EC%9B%90%20%EA%B5%B0%ED%8F%AC",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "군포시평생학습원",
+        "registeredAddress":  "경기 군포시 당동"
+    },
+    {
+        "sourceRowNumber":  224,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  225,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  226,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  227,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  228,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  229,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  230,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  231,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  232,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  233,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  234,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  235,
+        "query":  "오산시 문화예술회관 오산",
+        "url":  "https://map.naver.com/p/search/%EC%98%A4%EC%82%B0%EC%8B%9C%20%EB%AC%B8%ED%99%94%EC%98%88%EC%88%A0%ED%9A%8C%EA%B4%80%20%EC%98%A4%EC%82%B0",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "오산문화예술회관 대공연장",
+        "registeredAddress":  "경기 오산시 오산동"
+    },
+    {
+        "sourceRowNumber":  236,
+        "query":  "오산시 보건소 오산",
+        "url":  "https://map.naver.com/p/search/%EC%98%A4%EC%82%B0%EC%8B%9C%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EC%98%A4%EC%82%B0",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "오산시보건소",
+        "registeredAddress":  "경기 오산시 오산동"
+    },
+    {
+        "sourceRowNumber":  237,
+        "query":  "오산시 미니어처 빌리지 오산",
+        "url":  "https://map.naver.com/p/entry/place/1038507442",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "오산미니어처빌리지",
+        "registeredAddress":  "경기 오산시 내삼미동"
+    },
+    {
+        "sourceRowNumber":  238,
+        "query":  "오산아이드림센터 오산",
+        "url":  "https://map.naver.com/p/entry/place/1612611210",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "오산아이드림센터",
+        "registeredAddress":  "경기 오산시 양산동"
+    },
+    {
+        "sourceRowNumber":  239,
+        "query":  "오산시 반려동물테마파크 오산",
+        "url":  "https://map.naver.com/p/search/%EC%98%A4%EC%82%B0%EC%8B%9C%20%EB%B0%98%EB%A0%A4%EB%8F%99%EB%AC%BC%ED%85%8C%EB%A7%88%ED%8C%8C%ED%81%AC%20%EC%98%A4%EC%82%B0",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "오산 반려동물 테마파크",
+        "registeredAddress":  "경기 오산시 오산동"
+    },
+    {
+        "sourceRowNumber":  240,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  241,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  242,
+        "query":  "공도저류지 공영주차장 안성",
+        "url":  "https://map.naver.com/p/search/%EA%B3%B5%EB%8F%84%EC%A0%80%EB%A5%98%EC%A7%80%20%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "공도저류지 공영주차장",
+        "registeredAddress":  "경기 안성시 공도읍"
+    },
+    {
+        "sourceRowNumber":  243,
+        "query":  "서인동공영주차장 안성",
+        "url":  "https://map.naver.com/p/search/%EC%84%9C%EC%9D%B8%EB%8F%99%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "서인동공영주차장",
+        "registeredAddress":  "경기 안성시 서인동"
+    },
+    {
+        "sourceRowNumber":  244,
+        "query":  "석정동공영주차장 안성",
+        "url":  "https://map.naver.com/p/search/%EC%84%9D%EC%A0%95%EB%8F%99%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "석정동공영주차장",
+        "registeredAddress":  "경기 안성시 석정동"
+    },
+    {
+        "sourceRowNumber":  245,
+        "query":  "동본동공영주차장 안성",
+        "url":  "https://map.naver.com/p/entry/place/35966752",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "동본동 공영주차장",
+        "registeredAddress":  "경기 안성시 동본동"
+    },
+    {
+        "sourceRowNumber":  246,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  247,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  248,
+        "query":  "아양복개천주차장 안성",
+        "url":  "https://map.naver.com/p/entry/place/36444319",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "아양복개천공영주차장",
+        "registeredAddress":  "경기 안성시 아양동"
+    },
+    {
+        "sourceRowNumber":  249,
+        "query":  "가족공원공영주차장 안성",
+        "url":  "https://map.naver.com/p/entry/place/1109202553",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "안성마춤가족공원 공영 주차장",
+        "registeredAddress":  "경기 안성시 공도읍"
+    },
+    {
+        "sourceRowNumber":  250,
+        "query":  "일죽면공영주차장 안성",
+        "url":  "https://map.naver.com/p/search/%EC%9D%BC%EC%A3%BD%EB%A9%B4%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  251,
+        "query":  "당왕동공영주차장 안성",
+        "url":  "https://map.naver.com/p/search/%EB%8B%B9%EC%99%95%EB%8F%99%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  252,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  253,
+        "query":  "승두리공영주차장 안성",
+        "url":  "https://map.naver.com/p/search/%EC%8A%B9%EB%91%90%EB%A6%AC%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "승두리공영주차장",
+        "registeredAddress":  "경기 안성시 공도읍"
+    },
+    {
+        "sourceRowNumber":  254,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  255,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  256,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  257,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  258,
+        "query":  "석정동3공영주차장 안성",
+        "url":  "https://map.naver.com/p/search/%EC%84%9D%EC%A0%95%EB%8F%993%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  259,
+        "query":  "안성시공영주차장 안성시",
+        "url":  "https://map.naver.com/p/search/%EC%95%88%EC%84%B1%EC%8B%9C%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "안성시공영주차장",
+        "registeredAddress":  "경기 안성시 석정동"
+    },
+    {
+        "sourceRowNumber":  260,
+        "query":  "서운공영주차장 안성",
+        "url":  "https://map.naver.com/p/search/%EC%84%9C%EC%9A%B4%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "서운공영주차장",
+        "registeredAddress":  "경기 안성시 서운면"
+    },
+    {
+        "sourceRowNumber":  261,
+        "query":  "봉남동공영주차장 안성",
+        "url":  "https://map.naver.com/p/entry/place/1376278980",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "봉남동 노상 공영 주차장",
+        "registeredAddress":  "경기 안성시 봉남동"
+    },
+    {
+        "sourceRowNumber":  262,
+        "query":  "금산동공영주차장 안성",
+        "url":  "https://map.naver.com/p/search/%EA%B8%88%EC%82%B0%EB%8F%99%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "금산동공영주차장",
+        "registeredAddress":  "경기 안성시 금산동"
+    },
+    {
+        "sourceRowNumber":  263,
+        "query":  "명륜도로주차장 안성",
+        "url":  "https://map.naver.com/p/search/%EB%AA%85%EB%A5%9C%EB%8F%84%EB%A1%9C%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "명륜도로 공영 주차장",
+        "registeredAddress":  "경기 안성시 명륜동"
+    },
+    {
+        "sourceRowNumber":  264,
+        "query":  "도기동임시공영주차장 안성",
+        "url":  "https://map.naver.com/p/search/%EB%8F%84%EA%B8%B0%EB%8F%99%EC%9E%84%EC%8B%9C%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "당왕동 제2 임시 공영 주차장",
+        "registeredAddress":  "경기 안성시 당왕동"
+    },
+    {
+        "sourceRowNumber":  265,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  266,
+        "query":  "당왕동2임시공영주차장 안성",
+        "url":  "https://map.naver.com/p/search/%EB%8B%B9%EC%99%95%EB%8F%992%EC%9E%84%EC%8B%9C%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  267,
+        "query":  "공도임시주차장 안성",
+        "url":  "https://map.naver.com/p/search/%EA%B3%B5%EB%8F%84%EC%9E%84%EC%8B%9C%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  268,
+        "query":  "원곡면공영주차장 안성",
+        "url":  "https://map.naver.com/p/search/%EC%9B%90%EA%B3%A1%EB%A9%B4%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "원곡면공영주차장",
+        "registeredAddress":  "경기 안성시 원곡면"
+    },
+    {
+        "sourceRowNumber":  269,
+        "query":  "대덕광덕공영주차장 안성",
+        "url":  "https://map.naver.com/p/entry/place/1134083074",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "대덕광덕공영주차장",
+        "registeredAddress":  "경기 안성시 대덕면"
+    },
+    {
+        "sourceRowNumber":  270,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  271,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  272,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  273,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  274,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  275,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  276,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  277,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  278,
+        "query":  "고삼게이트볼장 안성",
+        "url":  "https://map.naver.com/p/entry/place/1290105852",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "고삼게이트볼장",
+        "registeredAddress":  "경기 안성시 고삼면"
+    },
+    {
+        "sourceRowNumber":  279,
+        "query":  "아름다운천막 안성시",
+        "url":  "https://map.naver.com/p/search/%EC%95%84%EB%A6%84%EB%8B%A4%EC%9A%B4%EC%B2%9C%EB%A7%89%20%EC%95%88%EC%84%B1%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "아름다운천막",
+        "registeredAddress":  "경기 안성시 대덕면"
+    },
+    {
+        "sourceRowNumber":  280,
+        "query":  "공도 대림테니스장 안성",
+        "url":  "https://map.naver.com/p/search/%EA%B3%B5%EB%8F%84%20%EB%8C%80%EB%A6%BC%ED%85%8C%EB%8B%88%EC%8A%A4%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "대림테니스장(1코트)",
+        "registeredAddress":  "경기 안성시 공도읍"
+    },
+    {
+        "sourceRowNumber":  281,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  282,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  283,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  284,
+        "query":  "마춤정 안성시",
+        "url":  "https://map.naver.com/p/search/%EB%A7%88%EC%B6%A4%EC%A0%95%20%EC%95%88%EC%84%B1%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "마춤정",
+        "registeredAddress":  "경기 안성시 양성면"
+    },
+    {
+        "sourceRowNumber":  285,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  286,
+        "query":  "금광테니스장 안성",
+        "url":  "https://map.naver.com/p/search/%EA%B8%88%EA%B4%91%ED%85%8C%EB%8B%88%EC%8A%A4%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "금광테니스장(1코트)",
+        "registeredAddress":  "경기 안성시 금광면"
+    },
+    {
+        "sourceRowNumber":  287,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  288,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  289,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  290,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  291,
+        "query":  "내리 게이트볼장 안성",
+        "url":  "https://map.naver.com/p/entry/place/37141063",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "대덕면게이트볼장",
+        "registeredAddress":  "경기 안성시 대덕면"
+    },
+    {
+        "sourceRowNumber":  292,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  293,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  294,
+        "query":  "농협물류단지공원 테니스장 안성",
+        "url":  "https://map.naver.com/p/search/%EB%86%8D%ED%98%91%EB%AC%BC%EB%A5%98%EB%8B%A8%EC%A7%80%EA%B3%B5%EC%9B%90%20%ED%85%8C%EB%8B%88%EC%8A%A4%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "농협물류단지공원테니스장",
+        "registeredAddress":  "경기 안성시 미양면"
+    },
+    {
+        "sourceRowNumber":  295,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  296,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  297,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  298,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  299,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  300,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  301,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  302,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  303,
+        "query":  "미양게이트볼장 안성",
+        "url":  "https://map.naver.com/p/entry/place/35052137",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "미양면게이트볼장",
+        "registeredAddress":  "경기 안성시 미양면"
+    },
+    {
+        "sourceRowNumber":  304,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  305,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  306,
+        "query":  "보개 게이트볼장 안성",
+        "url":  "https://map.naver.com/p/search/%EB%B3%B4%EA%B0%9C%20%EA%B2%8C%EC%9D%B4%ED%8A%B8%EB%B3%BC%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "농아인게이트볼장",
+        "registeredAddress":  "경기 안성시 봉남동"
+    },
+    {
+        "sourceRowNumber":  307,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  308,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  309,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  310,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  311,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  312,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  313,
+        "query":  "사솔게이트볼장 안성",
+        "url":  "https://map.naver.com/p/search/%EC%82%AC%EC%86%94%EA%B2%8C%EC%9D%B4%ED%8A%B8%EB%B3%BC%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  314,
+        "query":  "삼죽 사솔 게이트볼장 안성",
+        "url":  "https://map.naver.com/p/entry/place/1567796892",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "사솔게이트볼장",
+        "registeredAddress":  "경기 안성시 삼죽면"
+    },
+    {
+        "sourceRowNumber":  315,
+        "query":  "삼죽게이트볼장 안성",
+        "url":  "https://map.naver.com/p/entry/place/1567796892",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "사솔게이트볼장",
+        "registeredAddress":  "경기 안성시 삼죽면"
+    },
+    {
+        "sourceRowNumber":  316,
+        "query":  "동부체육공원 족구장 안성시",
+        "url":  "https://map.naver.com/p/search/%EB%8F%99%EB%B6%80%EC%B2%B4%EC%9C%A1%EA%B3%B5%EC%9B%90%20%EC%A1%B1%EA%B5%AC%EC%9E%A5%20%EC%95%88%EC%84%B1%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "동부체육공원 족구장",
+        "registeredAddress":  "경기 안성시 삼죽면"
+    },
+    {
+        "sourceRowNumber":  317,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  318,
+        "query":  "서안성체육센터 유료 안성",
+        "url":  "https://map.naver.com/p/search/%EC%84%9C%EC%95%88%EC%84%B1%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0%20%EC%9C%A0%EB%A3%8C%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  319,
+        "query":  "서운게이트볼장 안성",
+        "url":  "https://map.naver.com/p/entry/place/37142217",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "서운게이트볼장",
+        "registeredAddress":  "경기 안성시 서운면"
+    },
+    {
+        "sourceRowNumber":  320,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  321,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  322,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  323,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  324,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  325,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  326,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  327,
+        "query":  "안성시게이트볼협회전용구장 안성시",
+        "url":  "https://map.naver.com/p/search/%EC%95%88%EC%84%B1%EC%8B%9C%EA%B2%8C%EC%9D%B4%ED%8A%B8%EB%B3%BC%ED%98%91%ED%9A%8C%EC%A0%84%EC%9A%A9%EA%B5%AC%EC%9E%A5%20%EC%95%88%EC%84%B1%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "안성시게이트볼협회전용구장",
+        "registeredAddress":  "경기 안성시 대덕면"
+    },
+    {
+        "sourceRowNumber":  328,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  329,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  330,
+        "query":  "안성맞춤 배드민턴전용구장 안성",
+        "url":  "https://map.naver.com/p/search/%EC%95%88%EC%84%B1%EB%A7%9E%EC%B6%A4%20%EB%B0%B0%EB%93%9C%EB%AF%BC%ED%84%B4%EC%A0%84%EC%9A%A9%EA%B5%AC%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "안성맞춤배드민턴구장",
+        "registeredAddress":  "경기 안성시 보개면"
+    },
+    {
+        "sourceRowNumber":  331,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  332,
+        "query":  "안성맞춤 실내체육관 안성",
+        "url":  "https://map.naver.com/p/search/%EC%95%88%EC%84%B1%EB%A7%9E%EC%B6%A4%20%EC%8B%A4%EB%82%B4%EC%B2%B4%EC%9C%A1%EA%B4%80%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "안성맞춤실내체육관",
+        "registeredAddress":  "경기 안성시 보개면"
+    },
+    {
+        "sourceRowNumber":  333,
+        "query":  "안성맞춤 실내체육관 유료 안성",
+        "url":  "https://map.naver.com/p/search/%EC%95%88%EC%84%B1%EB%A7%9E%EC%B6%A4%20%EC%8B%A4%EB%82%B4%EC%B2%B4%EC%9C%A1%EA%B4%80%20%EC%9C%A0%EB%A3%8C%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  334,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  335,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  336,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  337,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  338,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  339,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  340,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  341,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  342,
+        "query":  "양기지구어린이공원 풋살구장 안성시",
+        "url":  "https://map.naver.com/p/search/%EC%96%91%EA%B8%B0%EC%A7%80%EA%B5%AC%EC%96%B4%EB%A6%B0%EC%9D%B4%EA%B3%B5%EC%9B%90%20%ED%92%8B%EC%82%B4%EA%B5%AC%EC%9E%A5%20%EC%95%88%EC%84%B1%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "양기지구어린이공원 풋살구장",
+        "registeredAddress":  "경기 안성시 공도읍"
+    },
+    {
+        "sourceRowNumber":  343,
+        "query":  "양성 게이트볼장 안성",
+        "url":  "https://map.naver.com/p/search/%EC%96%91%EC%84%B1%20%EA%B2%8C%EC%9D%B4%ED%8A%B8%EB%B3%BC%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "양성면게이트볼장",
+        "registeredAddress":  "경기 안성시 양성면"
+    },
+    {
+        "sourceRowNumber":  344,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  345,
+        "query":  "원곡공공하수처리시설 풋살장 안성",
+        "url":  "https://map.naver.com/p/search/%EC%9B%90%EA%B3%A1%EA%B3%B5%EA%B3%B5%ED%95%98%EC%88%98%EC%B2%98%EB%A6%AC%EC%8B%9C%EC%84%A4%20%ED%92%8B%EC%82%B4%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  346,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  347,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  348,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  349,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  350,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  351,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  352,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  353,
+        "query":  "일죽 족구장 안성",
+        "url":  "https://map.naver.com/p/search/%EC%9D%BC%EC%A3%BD%20%EC%A1%B1%EA%B5%AC%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "일죽 족구장(2코트)",
+        "registeredAddress":  "경기 안성시 일죽면"
+    },
+    {
+        "sourceRowNumber":  354,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  355,
+        "query":  "일죽공공하수처리시설 축구장 안성",
+        "url":  "https://map.naver.com/p/entry/place/1329847776",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "일죽공공하수처리시설 축구장",
+        "registeredAddress":  "경기 안성시 일죽면"
+    },
+    {
+        "sourceRowNumber":  356,
+        "query":  "일죽테니스장 안성",
+        "url":  "https://map.naver.com/p/search/%EC%9D%BC%EC%A3%BD%ED%85%8C%EB%8B%88%EC%8A%A4%EC%9E%A5%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "일죽테니스장",
+        "registeredAddress":  "경기 안성시 일죽면"
+    },
+    {
+        "sourceRowNumber":  357,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  358,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  359,
+        "query":  "죽산게이트볼장 안성",
+        "url":  "https://map.naver.com/p/entry/place/1236727694",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "죽산게이트볼구장",
+        "registeredAddress":  "경기 안성시 죽산면"
+    },
+    {
+        "sourceRowNumber":  360,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  361,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  362,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  363,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  364,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  365,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  366,
+        "query":  "안성시보건소 안성",
+        "url":  "https://map.naver.com/p/search/%EC%95%88%EC%84%B1%EC%8B%9C%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "안성시보건소",
+        "registeredAddress":  "경기 안성시 도기동"
+    },
+    {
+        "sourceRowNumber":  367,
+        "query":  "금광보건지소 안성",
+        "url":  "https://map.naver.com/p/search/%EA%B8%88%EA%B4%91%EB%B3%B4%EA%B1%B4%EC%A7%80%EC%86%8C%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "금광보건지소",
+        "registeredAddress":  "경기 안성시 금광면"
+    },
+    {
+        "sourceRowNumber":  368,
+        "query":  "안성시서운면보건지소 안성시",
+        "url":  "https://map.naver.com/p/search/%EC%95%88%EC%84%B1%EC%8B%9C%EC%84%9C%EC%9A%B4%EB%A9%B4%EB%B3%B4%EA%B1%B4%EC%A7%80%EC%86%8C%20%EC%95%88%EC%84%B1%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "안성시서운면보건지소",
+        "registeredAddress":  "경기 안성시 서운면"
+    },
+    {
+        "sourceRowNumber":  369,
+        "query":  "미양보건지소 안성",
+        "url":  "https://map.naver.com/p/entry/place/36477616",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "미양면보건지소",
+        "registeredAddress":  "경기 안성시 미양면"
+    },
+    {
+        "sourceRowNumber":  370,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  371,
+        "query":  "원곡보건지소 안성",
+        "url":  "https://map.naver.com/p/entry/place/13233945",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "원곡보건지소",
+        "registeredAddress":  "경기 안성시 원곡면"
+    },
+    {
+        "sourceRowNumber":  372,
+        "query":  "일죽보건지소 안성",
+        "url":  "https://map.naver.com/p/search/%EC%9D%BC%EC%A3%BD%EB%B3%B4%EA%B1%B4%EC%A7%80%EC%86%8C%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "일죽보건지소",
+        "registeredAddress":  "경기 안성시 일죽면"
+    },
+    {
+        "sourceRowNumber":  373,
+        "query":  "죽산보건지소 안성",
+        "url":  "https://map.naver.com/p/entry/place/36477619",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "죽산보건지소",
+        "registeredAddress":  "경기 안성시 죽산면"
+    },
+    {
+        "sourceRowNumber":  374,
+        "query":  "삼죽보건지소 안성",
+        "url":  "https://map.naver.com/p/search/%EC%82%BC%EC%A3%BD%EB%B3%B4%EA%B1%B4%EC%A7%80%EC%86%8C%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  375,
+        "query":  "고삼보건지소 안성",
+        "url":  "https://map.naver.com/p/search/%EA%B3%A0%EC%82%BC%EB%B3%B4%EA%B1%B4%EC%A7%80%EC%86%8C%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "고삼보건지소",
+        "registeredAddress":  "경기 안성시 고삼면"
+    },
+    {
+        "sourceRowNumber":  376,
+        "query":  "건천보건진료소 안성",
+        "url":  "https://map.naver.com/p/entry/place/13234019",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "건천보건진료소",
+        "registeredAddress":  "경기 안성시 공도읍"
+    },
+    {
+        "sourceRowNumber":  377,
+        "query":  "복평보건진료소 안성",
+        "url":  "https://map.naver.com/p/entry/place/13234356",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "복평보건진료소",
+        "registeredAddress":  "경기 안성시 보개면"
+    },
+    {
+        "sourceRowNumber":  378,
+        "query":  "동평보건진료소 안성",
+        "url":  "https://map.naver.com/p/entry/place/13234251",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "동평보건진료소",
+        "registeredAddress":  "경기 안성시 보개면"
+    },
+    {
+        "sourceRowNumber":  379,
+        "query":  "개산보건진료소 안성",
+        "url":  "https://map.naver.com/p/search/%EA%B0%9C%EC%82%B0%EB%B3%B4%EA%B1%B4%EC%A7%84%EB%A3%8C%EC%86%8C%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  380,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  381,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  382,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  383,
+        "query":  "명목보건진료소 안성",
+        "url":  "https://map.naver.com/p/entry/place/2035563503",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "명목보건진료소",
+        "registeredAddress":  "경기 안성시 양성면"
+    },
+    {
+        "sourceRowNumber":  384,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  385,
+        "query":  "방초보건진료소 안성",
+        "url":  "https://map.naver.com/p/entry/place/13234256",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "방초보건진료소",
+        "registeredAddress":  "경기 안성시 일죽면"
+    },
+    {
+        "sourceRowNumber":  386,
+        "query":  "당목보건진료소 안성",
+        "url":  "https://map.naver.com/p/entry/place/13234264",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "당목리보건진료소",
+        "registeredAddress":  "경기 안성시 죽산면"
+    },
+    {
+        "sourceRowNumber":  387,
+        "query":  "율곡보건진료소 안성",
+        "url":  "https://map.naver.com/p/entry/place/13234254",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "율곡보건진료소",
+        "registeredAddress":  "경기 안성시 삼죽면"
+    },
+    {
+        "sourceRowNumber":  388,
+        "query":  "쌍지보건진료소 안성",
+        "url":  "https://map.naver.com/p/entry/place/37140952",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "쌍지보건진료소",
+        "registeredAddress":  "경기 안성시 고삼면"
+    },
+    {
+        "sourceRowNumber":  389,
+        "query":  "안성시미디어센터 안성",
+        "url":  "https://map.naver.com/p/search/%EC%95%88%EC%84%B1%EC%8B%9C%EB%AF%B8%EB%94%94%EC%96%B4%EC%84%BC%ED%84%B0%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "안성미디어센터",
+        "registeredAddress":  "경기 안성시 현수동"
+    },
+    {
+        "sourceRowNumber":  390,
+        "query":  "안성맞춤랜드 안성",
+        "url":  "https://map.naver.com/p/search/%EC%95%88%EC%84%B1%EB%A7%9E%EC%B6%A4%EB%9E%9C%EB%93%9C%20%EC%95%88%EC%84%B1",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  391,
+        "query":  "구리시 보건소 구리",
+        "url":  "https://map.naver.com/p/search/%EA%B5%AC%EB%A6%AC%EC%8B%9C%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EA%B5%AC%EB%A6%AC",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "구리시보건소",
+        "registeredAddress":  "경기 구리시 인창동"
+    },
+    {
+        "sourceRowNumber":  392,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  393,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  394,
+        "query":  "의왕시 평생학습관 의왕",
+        "url":  "https://map.naver.com/p/search/%EC%9D%98%EC%99%95%EC%8B%9C%20%ED%8F%89%EC%83%9D%ED%95%99%EC%8A%B5%EA%B4%80%20%EC%9D%98%EC%99%95",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "의왕시 평생학습관",
+        "registeredAddress":  "경기 의왕시 오전동"
+    },
+    {
+        "sourceRowNumber":  395,
+        "query":  "의왕시 청소년수련관 의왕",
+        "url":  "https://map.naver.com/p/search/%EC%9D%98%EC%99%95%EC%8B%9C%20%EC%B2%AD%EC%86%8C%EB%85%84%EC%88%98%EB%A0%A8%EA%B4%80%20%EC%9D%98%EC%99%95",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  396,
+        "query":  "의왕시 청소년상담복지센터 의왕",
+        "url":  "https://map.naver.com/p/search/%EC%9D%98%EC%99%95%EC%8B%9C%20%EC%B2%AD%EC%86%8C%EB%85%84%EC%83%81%EB%8B%B4%EB%B3%B5%EC%A7%80%EC%84%BC%ED%84%B0%20%EC%9D%98%EC%99%95",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "의왕시청소년상담복지센터 본소",
+        "registeredAddress":  "경기 의왕시 포일동"
+    },
+    {
+        "sourceRowNumber":  397,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  398,
+        "query":  "주민복지관 의왕",
+        "url":  "https://map.naver.com/p/search/%EC%A3%BC%EB%AF%BC%EB%B3%B5%EC%A7%80%EA%B4%80%20%EC%9D%98%EC%99%95",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "주민복지관",
+        "registeredAddress":  "경기 의왕시 삼동"
+    },
+    {
+        "sourceRowNumber":  399,
+        "query":  "포일어울림센터 의왕",
+        "url":  "https://map.naver.com/p/search/%ED%8F%AC%EC%9D%BC%EC%96%B4%EC%9A%B8%EB%A6%BC%EC%84%BC%ED%84%B0%20%EC%9D%98%EC%99%95",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "더플러스카페 포일어울림센터",
+        "registeredAddress":  "경기 의왕시 포일동"
+    },
+    {
+        "sourceRowNumber":  400,
+        "query":  "백운커뮤니티센터 의왕",
+        "url":  "https://map.naver.com/p/search/%EB%B0%B1%EC%9A%B4%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0%EC%84%BC%ED%84%B0%20%EC%9D%98%EC%99%95",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "백운커뮤니티센터",
+        "registeredAddress":  "경기 의왕시 학의동"
+    },
+    {
+        "sourceRowNumber":  401,
+        "query":  "오전커뮤니티센터 의왕",
+        "url":  "https://map.naver.com/p/search/%EC%98%A4%EC%A0%84%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0%EC%84%BC%ED%84%B0%20%EC%9D%98%EC%99%95",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "오전커뮤니티센터",
+        "registeredAddress":  "경기 의왕시 오전동"
+    },
+    {
+        "sourceRowNumber":  402,
+        "query":  "청계종합복지센터 의왕",
+        "url":  "https://map.naver.com/p/search/%EC%B2%AD%EA%B3%84%EC%A2%85%ED%95%A9%EB%B3%B5%EC%A7%80%EC%84%BC%ED%84%B0%20%EC%9D%98%EC%99%95",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "청계종합복지센터",
+        "registeredAddress":  "경기 의왕시 청계동"
+    },
+    {
+        "sourceRowNumber":  403,
+        "query":  "의왕스마트시티 퀀텀 의왕",
+        "url":  "https://map.naver.com/p/search/%EC%9D%98%EC%99%95%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%8B%9C%ED%8B%B0%20%ED%80%80%ED%85%80%20%EC%9D%98%EC%99%95",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "의왕스마트시티퀀텀",
+        "registeredAddress":  "경기 의왕시 초평동"
+    },
+    {
+        "sourceRowNumber":  404,
+        "query":  "한국커뮤니티연구원 활동지원교육기관 안양시",
+        "url":  "https://map.naver.com/p/search/%ED%95%9C%EA%B5%AD%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0%EC%97%B0%EA%B5%AC%EC%9B%90%20%ED%99%9C%EB%8F%99%EC%A7%80%EC%9B%90%EA%B5%90%EC%9C%A1%EA%B8%B0%EA%B4%80%20%EC%95%88%EC%96%91%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "한국커뮤니티연구원 활동지원교육기관",
+        "registeredAddress":  "경기 안양시 동안구 관양동"
+    },
+    {
+        "sourceRowNumber":  405,
+        "query":  "의왕시 글로벌인재센터 의왕",
+        "url":  "https://map.naver.com/p/search/%EC%9D%98%EC%99%95%EC%8B%9C%20%EA%B8%80%EB%A1%9C%EB%B2%8C%EC%9D%B8%EC%9E%AC%EC%84%BC%ED%84%B0%20%EC%9D%98%EC%99%95",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "의왕글로벌인재센터",
+        "registeredAddress":  "경기 의왕시 내손동"
+    },
+    {
+        "sourceRowNumber":  406,
+        "query":  "국민체육센터 의왕",
+        "url":  "https://map.naver.com/p/search/%EA%B5%AD%EB%AF%BC%EC%B2%B4%EC%9C%A1%EC%84%BC%ED%84%B0%20%EC%9D%98%EC%99%95",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "의왕국민체육센터",
+        "registeredAddress":  "경기 의왕시 내손동"
+    },
+    {
+        "sourceRowNumber":  407,
+        "query":  "부곡스포츠센터 의왕",
+        "url":  "https://map.naver.com/p/search/%EB%B6%80%EA%B3%A1%EC%8A%A4%ED%8F%AC%EC%B8%A0%EC%84%BC%ED%84%B0%20%EC%9D%98%EC%99%95",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "부곡스포츠센터",
+        "registeredAddress":  "경기 의왕시 삼동"
+    },
+    {
+        "sourceRowNumber":  408,
+        "query":  "포일스포츠센터 의왕",
+        "url":  "https://map.naver.com/p/search/%ED%8F%AC%EC%9D%BC%EC%8A%A4%ED%8F%AC%EC%B8%A0%EC%84%BC%ED%84%B0%20%EC%9D%98%EC%99%95",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "포일스포츠센터",
+        "registeredAddress":  "경기 의왕시 포일동"
+    },
+    {
+        "sourceRowNumber":  409,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  410,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  411,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  412,
+        "query":  "청계배드민턴장 의왕",
+        "url":  "https://map.naver.com/p/search/%EC%B2%AD%EA%B3%84%EB%B0%B0%EB%93%9C%EB%AF%BC%ED%84%B4%EC%9E%A5%20%EC%9D%98%EC%99%95",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "청계배드민턴장",
+        "registeredAddress":  "경기 의왕시 청계동"
+    },
+    {
+        "sourceRowNumber":  413,
+        "query":  "소프트테니스장 의왕",
+        "url":  "https://map.naver.com/p/search/%EC%86%8C%ED%94%84%ED%8A%B8%ED%85%8C%EB%8B%88%EC%8A%A4%EC%9E%A5%20%EC%9D%98%EC%99%95",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  414,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  415,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  416,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  417,
+        "query":  "왕송호수캠핑장 의왕시",
+        "url":  "https://map.naver.com/p/search/%EC%99%95%EC%86%A1%ED%98%B8%EC%88%98%EC%BA%A0%ED%95%91%EC%9E%A5%20%EC%9D%98%EC%99%95%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "왕송호수캠핑장",
+        "registeredAddress":  "경기 의왕시 월암동"
+    },
+    {
+        "sourceRowNumber":  418,
+        "query":  "의왕시 바라산 자연휴양림 의왕",
+        "url":  "https://map.naver.com/p/search/%EC%9D%98%EC%99%95%EC%8B%9C%20%EB%B0%94%EB%9D%BC%EC%82%B0%20%EC%9E%90%EC%97%B0%ED%9C%B4%EC%96%91%EB%A6%BC%20%EC%9D%98%EC%99%95",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "의왕바라산자연휴양림",
+        "registeredAddress":  "경기 의왕시 학의동"
+    },
+    {
+        "sourceRowNumber":  419,
+        "query":  "포천반월아트홀 공영 주차장 포천시",
+        "url":  "https://map.naver.com/p/search/%ED%8F%AC%EC%B2%9C%EB%B0%98%EC%9B%94%EC%95%84%ED%8A%B8%ED%99%80%20%EA%B3%B5%EC%98%81%20%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%ED%8F%AC%EC%B2%9C%EC%8B%9C",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "포천반월아트홀 공영 주차장",
+        "registeredAddress":  "경기 포천시 군내면"
+    },
+    {
+        "sourceRowNumber":  420,
+        "query":  "양평군 보건소 양평",
+        "url":  "https://map.naver.com/p/search/%EC%96%91%ED%8F%89%EA%B5%B0%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EC%96%91%ED%8F%89",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  421,
+        "query":  "양평장례식장 양평군",
+        "url":  "https://map.naver.com/p/search/%EC%96%91%ED%8F%89%EC%9E%A5%EB%A1%80%EC%8B%9D%EC%9E%A5%20%EC%96%91%ED%8F%89%EA%B5%B0",
+        "verificationStatus":  "검토 필요 - 상호 또는 지역 불일치",
+        "registeredName":  "양평장례식장",
+        "registeredAddress":  "경기 양평군 양평읍"
+    },
+    {
+        "sourceRowNumber":  422,
+        "query":  "양평군 평생학습센터 양평",
+        "url":  "https://map.naver.com/p/search/%EC%96%91%ED%8F%89%EA%B5%B0%20%ED%8F%89%EC%83%9D%ED%95%99%EC%8A%B5%EC%84%BC%ED%84%B0%20%EC%96%91%ED%8F%89",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "양평군 평생학습센터",
+        "registeredAddress":  "경기 양평군 양평읍"
+    },
+    {
+        "sourceRowNumber":  423,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  424,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  425,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  426,
+        "query":  "여주추모공원 여주",
+        "url":  "https://map.naver.com/p/search/%EC%97%AC%EC%A3%BC%EC%B6%94%EB%AA%A8%EA%B3%B5%EC%9B%90%20%EC%97%AC%EC%A3%BC",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "여주추모공원",
+        "registeredAddress":  "경기 여주시 가남읍"
+    },
+    {
+        "sourceRowNumber":  427,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  428,
+        "query":  "동두천시 보건소 동두천",
+        "url":  "https://map.naver.com/p/search/%EB%8F%99%EB%91%90%EC%B2%9C%EC%8B%9C%20%EB%B3%B4%EA%B1%B4%EC%86%8C%20%EB%8F%99%EB%91%90%EC%B2%9C",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "동두천시보건소",
+        "registeredAddress":  "경기 동두천시 생연동"
+    },
+    {
+        "sourceRowNumber":  429,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  430,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  431,
+        "query":  "동두천시 평생학습관 동두천",
+        "url":  "https://map.naver.com/p/search/%EB%8F%99%EB%91%90%EC%B2%9C%EC%8B%9C%20%ED%8F%89%EC%83%9D%ED%95%99%EC%8A%B5%EA%B4%80%20%EB%8F%99%EB%91%90%EC%B2%9C",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "동두천시 평생학습관",
+        "registeredAddress":  "경기 동두천시 지행동"
+    },
+    {
+        "sourceRowNumber":  432,
+        "query":  "과천시청소년수련관 과천",
+        "url":  "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%EC%B2%AD%EC%86%8C%EB%85%84%EC%88%98%EB%A0%A8%EA%B4%80%20%EA%B3%BC%EC%B2%9C",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "과천시청소년수련관",
+        "registeredAddress":  "경기 과천시 문원동"
+    },
+    {
+        "sourceRowNumber":  433,
+        "query":  "과천시민회관 과천",
+        "url":  "https://map.naver.com/p/search/%EA%B3%BC%EC%B2%9C%EC%8B%9C%EB%AF%BC%ED%9A%8C%EA%B4%80%20%EA%B3%BC%EC%B2%9C",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  434,
+        "query":  "관문실내체육관 과천",
+        "url":  "https://map.naver.com/p/entry/place/19061067",
+        "verificationStatus":  "검증완료 - 정확한 장소 바로가기",
+        "registeredName":  "관문실내체육관",
+        "registeredAddress":  "경기 과천시 관문동"
+    },
+    {
+        "sourceRowNumber":  435,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  436,
+        "query":  "조종반다비체육관 가평",
+        "url":  "https://map.naver.com/p/search/%EC%A1%B0%EC%A2%85%EB%B0%98%EB%8B%A4%EB%B9%84%EC%B2%B4%EC%9C%A1%EA%B4%80%20%EA%B0%80%ED%8F%89",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  437,
+        "query":  null,
+        "url":  null,
+        "verificationStatus":  "지도 링크 미제공 - 개별 주소 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    },
+    {
+        "sourceRowNumber":  438,
+        "query":  "한탄강관광지오토캠핑장 연천",
+        "url":  "https://map.naver.com/p/search/%ED%95%9C%ED%83%84%EA%B0%95%EA%B4%80%EA%B4%91%EC%A7%80%EC%98%A4%ED%86%A0%EC%BA%A0%ED%95%91%EC%9E%A5%20%EC%97%B0%EC%B2%9C",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "한탄강관광지 오토캠핑장",
+        "registeredAddress":  "경기 연천군 전곡읍"
+    },
+    {
+        "sourceRowNumber":  439,
+        "query":  "세계캠핑체험존 연천",
+        "url":  "https://map.naver.com/p/search/%EC%84%B8%EA%B3%84%EC%BA%A0%ED%95%91%EC%B2%B4%ED%97%98%EC%A1%B4%20%EC%97%B0%EC%B2%9C",
+        "verificationStatus":  "검증완료 - 검색 첫 결과 일치",
+        "registeredName":  "연천세계캠핑체험존",
+        "registeredAddress":  "경기 연천군 전곡읍"
+    },
+    {
+        "sourceRowNumber":  440,
+        "query":  "연천재인폭포오토캠핑장 연천",
+        "url":  "https://map.naver.com/p/search/%EC%97%B0%EC%B2%9C%EC%9E%AC%EC%9D%B8%ED%8F%AD%ED%8F%AC%EC%98%A4%ED%86%A0%EC%BA%A0%ED%95%91%EC%9E%A5%20%EC%97%B0%EC%B2%9C",
+        "verificationStatus":  "자동 검증 미완료 - 검색 응답 없음",
+        "registeredName":  null,
+        "registeredAddress":  null
+    }
+]

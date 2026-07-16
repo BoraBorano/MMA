@@ -78,8 +78,9 @@ test("PX 상세 화면에 이름·주소·영업시간·외부 링크가 모두 
   const naverLink = page.getByRole("link", { name: "네이버지도에서 보기" });
   await expect(naverLink).toHaveAttribute("target", "_blank");
   await expect(naverLink).toHaveAttribute("rel", "noopener noreferrer");
-  await expect(naverLink.getAttribute("href")).resolves.toContain(
-    "https://map.naver.com/p/search/",
+  await expect(naverLink).toHaveAttribute(
+    "href",
+    "https://map.naver.com/p/entry/place/32647660",
   );
 
   const portalLink = page.getByRole("link", { name: "국군복지포털에서 이용 자격 확인" });

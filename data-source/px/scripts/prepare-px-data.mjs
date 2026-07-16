@@ -229,11 +229,12 @@ function csvEscape(value) {
   return /[",\n]/.test(stringValue) ? `"${stringValue.replace(/"/g, '""')}"` : stringValue
 }
 
-const [officialRaw, secondaryRaw, geoRaw, portableMapRaw] = await Promise.all([
+const [officialRaw, secondaryRaw, geoRaw, portableMapRaw, naverMapLinksRaw] = await Promise.all([
   fs.readFile(path.join(sourceDir, 'mnd-px-official-20260428.txt'), 'utf8'),
   fs.readFile(path.join(sourceDir, 'secondary-coordinate-candidates.js'), 'utf8'),
   fs.readFile(path.join(sourceDir, 'gyeonggi-sigungu-2020.json'), 'utf8'),
-  fs.readFile(path.join(projectRoot, 'src', 'data', 'gyeonggi-map.json'), 'utf8'),
+  fs.readFile(path.join(projectRoot, 'public', 'data', 'gyeonggi-map.json'), 'utf8'),
+  fs.readFile(path.join(root, 'naver-map-links.json'), 'utf8'),
 ])
 
 const officialRows = parseOfficial(officialRaw)
@@ -241,6 +242,9 @@ const coordinateCandidates = parseSecondary(secondaryRaw)
 const gyeonggiGeo = JSON.parse(geoRaw)
 const mapRegions = JSON.parse(portableMapRaw)
 const bounds = geoBounds(gyeonggiGeo)
+const naverMapLinks = new Map(
+  JSON.parse(naverMapLinksRaw).map((link) => [link.id, link]),
+)
 
 const gyeonggiRows = officialRows
   .filter((row) => isGyeonggi(row.LOC))
@@ -252,7 +256,11 @@ const gyeonggiRows = officialRows
 const stores = gyeonggiRows.map((row, index) => {
   const match = findCoordinateCandidate(row, coordinateCandidates)
   const name = row.MART.replace(/\(\s*영외\s*\)/g, '').trim()
-  const query = `국군복지단 ${name} 군마트 ${row.LOC}`
+  const id = slugify(name, index)
+  const naverMapLink = naverMapLinks.get(id)
+  if (!naverMapLink?.verified || !naverMapLink.url) {
+    throw new Error(`Verified Naver Map link missing: ${id}`)
+  }
   const coordinate = match.candidate
     ? {
         lat: match.candidate.lat,
@@ -264,7 +272,7 @@ const stores = gyeonggiRows.map((row, index) => {
   const markerPoint = ensureMarkerInsideRegion(coordinate, region, mapRegions)
 
   return {
-    id: slugify(name, index),
+    id,
     name,
     officialName: row.MART,
     region,
@@ -285,8 +293,12 @@ const stores = gyeonggiRows.map((row, index) => {
     coordinateSource: match.candidate ? 'secondary-candidate-cross-checked' : null,
     coordinateMatchStatus: match.status,
     coordinateAddressScore: match.addressScore ?? null,
-    naverMapUrl: `https://map.naver.com/p/search/${encodeURIComponent(query)}`,
-    naverMapLinkType: 'search-deep-link',
+    naverMapQuery: naverMapLink.query,
+    naverPlaceId: naverMapLink.placeId,
+    naverMapUrl: naverMapLink.url,
+    naverMapVerified: true,
+    naverMapVerificationStatus: naverMapLink.verificationStatus,
+    naverMapLinkType: 'verified-place-entry',
     welfarePortalUrl: WELFARE_PORTAL_URL,
     welfareLinkType: 'portal-home',
   }
@@ -303,7 +315,7 @@ const output = {
     officialSheetUrl: OFFICIAL_SHEET_URL,
     officialFields: ['name', 'address', 'phone', 'hours', 'lunchHours', 'note'],
     coordinateNotice: '좌표는 국방부 원본 제공 필드가 아니며, 2차 공개 자료의 이름·주소·전화번호를 공식 자료와 대조한 표시용 후보값입니다.',
-    naverLinkNotice: '네이버 장소 ID가 아닌 네이버지도 검색 딥링크입니다.',
+    naverLinkNotice: '상호·지역·전화번호 또는 검색 결과로 검증한 네이버 장소 ID 직접 링크입니다.',
     operatingHoursNotice: '영업시간과 휴점 정보는 변경될 수 있으므로 방문 전 매장 전화 또는 국군복지포털에서 재확인해야 합니다.',
     licenseNotice: '공식 원본의 출처를 반드시 표시하고, 이 필터링·표준화 파일을 국방부 공식 원본으로 표현하지 마세요.',
   },
@@ -315,14 +327,16 @@ const csvColumns = [
   'weekdayHours', 'saturdayHours', 'sundayHours',
   'weekdayLunch', 'saturdayLunch', 'sundayLunch', 'note',
   'lat', 'lng', 'svgX', 'svgY', 'coordinateMatchStatus', 'coordinateAddressScore',
-  'naverMapUrl', 'welfarePortalUrl',
+  'naverMapQuery', 'naverPlaceId', 'naverMapUrl', 'naverMapVerified',
+  'naverMapVerificationStatus', 'welfarePortalUrl',
 ]
 const csvRows = stores.map((store) => [
   store.id, store.name, store.officialName, store.region, store.address, store.phone,
   store.hours.weekday, store.hours.saturday, store.hours.sunday,
   store.lunchHours.weekday, store.lunchHours.saturday, store.lunchHours.sunday, store.note,
   store.lat, store.lng, store.svgX, store.svgY, store.coordinateMatchStatus, store.coordinateAddressScore,
-  store.naverMapUrl, store.welfarePortalUrl,
+  store.naverMapQuery, store.naverPlaceId, store.naverMapUrl, store.naverMapVerified,
+  store.naverMapVerificationStatus, store.welfarePortalUrl,
 ])
 const csv = [csvColumns, ...csvRows].map((row) => row.map(csvEscape).join(',')).join('\n') + '\n'
 
@@ -350,10 +364,9 @@ const report = {
 }
 
 await Promise.all([
-  fs.writeFile(path.join(root, 'px-stores-gyeonggi.json'), JSON.stringify(output, null, 2) + '\n', 'utf8'),
+  fs.writeFile(path.join(projectRoot, 'public', 'data', 'px-stores-gyeonggi.json'), JSON.stringify(output, null, 2) + '\n', 'utf8'),
   fs.writeFile(path.join(root, 'px-stores-gyeonggi.csv'), '\uFEFF' + csv, 'utf8'),
   fs.writeFile(path.join(root, 'data-quality-report.json'), JSON.stringify(report, null, 2) + '\n', 'utf8'),
-  fs.writeFile(path.join(root, 'gyeonggi-map.json'), portableMapRaw, 'utf8'),
 ])
 
 console.log(`Prepared ${stores.length} official Gyeonggi PX rows`)

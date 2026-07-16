@@ -24,6 +24,7 @@ function makeFacility(overrides: Partial<Facility>): Facility {
     organizationType: null,
     note: null,
     homepageUrl: null,
+    naverMapUrl: null,
     address: null,
     phoneDisplay: null,
     phoneTel: null,
@@ -42,14 +43,11 @@ describe("buildTelUri", () => {
 });
 
 describe("buildNaverMapSearchUrl", () => {
-  it("시설명과 주소를 인코딩해 네이버 지도 검색 URL을 만든다", () => {
-    const url = buildNaverMapSearchUrl(
-      "과천시 시립예술단체",
-      "경기도 과천시 통영로 5 (중앙동) 과천시민회관 2층",
-    );
+  it("시설명과 실제 시군만 인코딩해 네이버 지도 검색 URL을 만든다", () => {
+    const url = buildNaverMapSearchUrl("과천시 시립예술단체", "과천");
     expect(url).toBe(
       "https://map.naver.com/p/search/" +
-        encodeURIComponent("과천시 시립예술단체 경기도 과천시 통영로 5 (중앙동) 과천시민회관 2층"),
+        encodeURIComponent("과천시 시립예술단체 과천"),
     );
     expect(url.startsWith("https://map.naver.com/p/search/")).toBe(true);
   });
@@ -65,28 +63,28 @@ describe("buildFacilityActionLinks — 버튼 노출 매트릭스 8조합 (PRD 1
   }> = [
     {
       label: "연락처 O / URL O / 주소 O",
-      facility: { phoneTel: "02-1234-5678", homepageUrl: "https://a.com", address: "서울" },
+      facility: { phoneTel: "02-1234-5678", homepageUrl: "https://a.com", naverMapUrl: "https://map.naver.com/p/search/test", address: "서울" },
       expectTel: true,
       expectHomepage: true,
       expectMap: true,
     },
     {
       label: "연락처 O / URL X / 주소 O",
-      facility: { phoneTel: "02-1234-5678", homepageUrl: null, address: "서울" },
+      facility: { phoneTel: "02-1234-5678", homepageUrl: null, naverMapUrl: "https://map.naver.com/p/search/test", address: "서울" },
       expectTel: true,
       expectHomepage: false,
       expectMap: true,
     },
     {
       label: "연락처 X / URL O / 주소 O",
-      facility: { phoneTel: null, homepageUrl: "https://a.com", address: "서울" },
+      facility: { phoneTel: null, homepageUrl: "https://a.com", naverMapUrl: "https://map.naver.com/p/search/test", address: "서울" },
       expectTel: false,
       expectHomepage: true,
       expectMap: true,
     },
     {
       label: "연락처 X / URL X / 주소 O",
-      facility: { phoneTel: null, homepageUrl: null, address: "서울" },
+      facility: { phoneTel: null, homepageUrl: null, naverMapUrl: "https://map.naver.com/p/search/test", address: "서울" },
       expectTel: false,
       expectHomepage: false,
       expectMap: true,

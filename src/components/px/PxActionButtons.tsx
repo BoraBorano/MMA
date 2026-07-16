@@ -8,7 +8,7 @@ interface PxActionButtonsProps {
 
 /**
  * 네이버지도·국군복지포털 연결 (모두 새 탭, noopener noreferrer).
- * naverMapUrl은 장소 고정 링크가 아니라 매장명+주소 검색 딥링크다 — 지도 SDK를 쓰지 않는다.
+ * naverMapUrl은 검증된 네이버 장소 ID 직접 링크다 — 지도 SDK를 쓰지 않는다.
  */
 export function PxActionButtons({ store }: PxActionButtonsProps) {
   return (

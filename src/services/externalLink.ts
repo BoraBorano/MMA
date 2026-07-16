@@ -5,12 +5,9 @@ export function buildTelUri(phoneTel: string): string {
   return `tel:${phoneTel}`;
 }
 
-/**
- * 시설명+주소로 네이버 지도 검색 (FR-019, PRD 16.5).
- * 값을 추정하지 않고 정제된 필드를 그대로 인코딩한다.
- */
-export function buildNaverMapSearchUrl(facilityName: string, address: string): string {
-  const query = `${facilityName} ${address}`;
+/** 검증된 상호명과 실제 시군만 사용하는 네이버지도 검색 링크. */
+export function buildNaverMapSearchUrl(facilityName: string, locality: string): string {
+  const query = `${facilityName} ${locality}`;
   return `https://map.naver.com/p/search/${encodeURIComponent(query)}`;
 }
 
@@ -25,10 +22,7 @@ export function buildFacilityActionLinks(facility: Facility): FacilityActionLink
   return {
     tel: facility.phoneTel !== null ? buildTelUri(facility.phoneTel) : null,
     homepage: facility.homepageUrl,
-    map:
-      facility.address !== null
-        ? buildNaverMapSearchUrl(facility.facilityName, facility.address)
-        : null,
+    map: facility.naverMapUrl ?? null,
   };
 }
 

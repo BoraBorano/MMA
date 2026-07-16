@@ -68,6 +68,8 @@ export interface Facility {
   /** 비고 — 원문 유지, 가공 금지 (FR-015) */
   note: string | null;
   homepageUrl: string | null;
+  /** 검증된 네이버지도 장소 또는 단축 검색 링크. 주소만으로 즉석 생성하지 않는다. */
+  naverMapUrl?: string | null;
   address: string | null;
   phoneDisplay: string | null;
   phoneTel: string | null;

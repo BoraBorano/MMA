@@ -4,7 +4,7 @@
  * 실행: npm run convert:data
  * 검증 실패(미정의 지역·업종, 연번 중복 등) 시 변환을 중단한다 — 조용한 보정 금지.
  */
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import ExcelJS from "exceljs";
 import {
@@ -31,6 +31,10 @@ const SOURCE_FILE = path.resolve(
   "../data-source/경인_예우시설_2026_4_30_업데이트_정리.xlsx",
 );
 const OUTPUT_FILE = path.resolve(import.meta.dirname, "../public/data/facilities.json");
+const NAVER_MAP_LINKS_FILE = path.resolve(
+  import.meta.dirname,
+  "../data-source/naver-map-facility-links.json",
+);
 const DATA_UPDATED_AT = "2026-04-30";
 
 const COLUMNS = {
@@ -70,6 +74,13 @@ function cellText(row: ExcelJS.Row, column: number): string {
 }
 
 async function main(): Promise<void> {
+  const naverMapLinks = JSON.parse(await readFile(NAVER_MAP_LINKS_FILE, "utf8")) as Array<{
+    sourceRowNumber: number;
+    url: string | null;
+  }>;
+  const naverMapUrlByRow = new Map(
+    naverMapLinks.map(({ sourceRowNumber, url }) => [sourceRowNumber, url]),
+  );
   const workbook = new ExcelJS.Workbook();
   await workbook.xlsx.readFile(SOURCE_FILE);
   const sheet = workbook.worksheets[0];
@@ -173,6 +184,7 @@ async function main(): Promise<void> {
       organizationType,
       note,
       homepageUrl,
+      naverMapUrl: naverMapUrlByRow.get(rowNumber) ?? null,
       address,
       phoneDisplay,
       phoneTel,

@@ -1,0 +1,394 @@
+[
+    {
+        "id":  "01-맹호",
+        "query":  "국군복지단 맹호마트 가평",
+        "placeId":  "32647660",
+        "url":  "https://map.naver.com/p/entry/place/32647660",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "02-횃불",
+        "query":  "국군복지단 횃불마트 가평",
+        "placeId":  "380544099",
+        "url":  "https://map.naver.com/p/entry/place/380544099",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "03-광개토",
+        "query":  "국군복지단 광개토마트 고양",
+        "placeId":  "1168598391",
+        "url":  "https://map.naver.com/p/entry/place/1168598391",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "04-권율",
+        "query":  "국군복지단 권율마트 고양",
+        "placeId":  "1715661120",
+        "url":  "https://map.naver.com/p/entry/place/1715661120",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "05-북한산",
+        "query":  "국군복지단 북한산마트 고양",
+        "placeId":  "1651178344",
+        "url":  "https://map.naver.com/p/entry/place/1651178344",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "06-일산점",
+        "query":  "국군복지단 일산마트 고양",
+        "placeId":  "1341719225",
+        "url":  "https://map.naver.com/p/entry/place/1341719225",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "07-화전",
+        "query":  "국군복지단 화전마트 고양",
+        "placeId":  "1543203562",
+        "url":  "https://map.naver.com/p/entry/place/1543203562",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "08-황룡",
+        "query":  "국군복지단 황룡마트 김포",
+        "placeId":  "1693131722",
+        "url":  "https://map.naver.com/p/entry/place/1693131722",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "09-불암산예약제",
+        "query":  "국군복지단 불암산마트 남양주",
+        "placeId":  "1531115131",
+        "url":  "https://map.naver.com/p/entry/place/1531115131",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "10-철마",
+        "query":  "국군복지단 철마마트 남양주",
+        "placeId":  "1968422166",
+        "url":  "https://map.naver.com/p/entry/place/1968422166",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "11-충일",
+        "query":  "국군복지단 충일마트 남양주",
+        "placeId":  "1838001356",
+        "url":  "https://map.naver.com/p/entry/place/1838001356",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "12-충호",
+        "query":  "국군복지단 충호마트 남양주",
+        "placeId":  "1684798144",
+        "url":  "https://map.naver.com/p/entry/place/1684798144",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "13-동두천",
+        "query":  "국군복지단 동두천마트 동두천",
+        "placeId":  "1710075984",
+        "url":  "https://map.naver.com/p/entry/place/1710075984",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "14-럭키",
+        "query":  "국군복지단 럭키마트 성남",
+        "placeId":  "19433348",
+        "url":  "https://map.naver.com/p/entry/place/19433348",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "15-우정",
+        "query":  "국군복지단 우정마트 성남",
+        "placeId":  "1990727698",
+        "url":  "https://map.naver.com/p/entry/place/1990727698",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "16--공-관사",
+        "query":  "국군복지단 관사마트 수원",
+        "placeId":  "1610433153",
+        "url":  "https://map.naver.com/p/entry/place/1610433153",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "17-박달",
+        "query":  "국군복지단 박달마트 안양",
+        "placeId":  "1914698213",
+        "url":  "https://map.naver.com/p/entry/place/1914698213",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "18-백석",
+        "query":  "국군복지단 백석마트 양주",
+        "placeId":  "1219060907",
+        "url":  "https://map.naver.com/p/entry/place/1219060907",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "19-신산",
+        "query":  "국군복지단 신산마트 양주",
+        "placeId":  "1524551658",
+        "url":  "https://map.naver.com/p/entry/place/1524551658",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "20-올림픽",
+        "query":  "국군복지단 올림픽마트 양주",
+        "placeId":  "1360434586",
+        "url":  "https://map.naver.com/p/entry/place/1360434586",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "21--공-용문산",
+        "query":  "국군복지단 용문산마트 양평",
+        "placeId":  "1438264042",
+        "url":  "https://map.naver.com/p/entry/place/1438264042",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "22-마룡리",
+        "query":  "국군복지단 마룡리마트 양평",
+        "placeId":  "1198452518",
+        "url":  "https://map.naver.com/p/entry/place/1198452518",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "23-충정",
+        "query":  "국군복지단 충정마트 양평",
+        "placeId":  "1070362884",
+        "url":  "https://map.naver.com/p/entry/place/1070362884",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "24-행복",
+        "query":  "국군복지단 행복마트 양평",
+        "placeId":  "1634673055",
+        "url":  "https://map.naver.com/p/entry/place/1634673055",
+        "verified":  true,
+        "verificationStatus":  "verified_name_region_phone"
+    },
+    {
+        "id":  "25-대광리",
+        "query":  "국군복지단 대광리마트 연천",
+        "placeId":  "1371758985",
+        "url":  "https://map.naver.com/p/entry/place/1371758985",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "26-전곡푸르미",
+        "query":  "국군복지단 전곡푸르미마트 연천",
+        "placeId":  "1115842119",
+        "url":  "https://map.naver.com/p/entry/place/1115842119",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "27-통현",
+        "query":  "국군복지단 통현마트 연천",
+        "placeId":  "1027682190",
+        "url":  "https://map.naver.com/p/entry/place/1027682190",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "28-선봉",
+        "query":  "국군복지단 선봉영외마트",
+        "placeId":  "1374119367",
+        "url":  "https://map.naver.com/p/entry/place/1374119367",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "29-선봉레스텔",
+        "query":  "국군복지단 선봉레스텔마트 용인",
+        "placeId":  "1276977290",
+        "url":  "https://map.naver.com/p/entry/place/1276977290",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "30-의정부푸르미",
+        "query":  "국군복지단 의정부푸르미마트 의정부",
+        "placeId":  "1273386501",
+        "url":  "https://map.naver.com/p/entry/place/1273386501",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "31-도하",
+        "query":  "국군복지단 도하마트 이천",
+        "placeId":  "1649366157",
+        "url":  "https://map.naver.com/p/entry/place/1649366157",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "32-비승",
+        "query":  "국군복지단 비승마트 이천",
+        "placeId":  "1263058549",
+        "url":  "https://map.naver.com/p/entry/place/1263058549",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "33-아름",
+        "query":  "국군복지단 아름마트 이천",
+        "placeId":  "1815528662",
+        "url":  "https://map.naver.com/p/entry/place/1815528662",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "34-이천상승점",
+        "query":  "국군복지단 이천상승마트 이천",
+        "placeId":  "1474272495",
+        "url":  "https://map.naver.com/p/entry/place/1474272495",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "35-금촌에버나인",
+        "query":  "국군복지단 금촌에버나인마트 파주",
+        "placeId":  "1168866032",
+        "url":  "https://map.naver.com/p/entry/place/1168866032",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "36-드림",
+        "query":  "국군복지단 드림마트 파주",
+        "placeId":  "1355291550",
+        "url":  "https://map.naver.com/p/entry/place/1355291550",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "37-선유리",
+        "query":  "국군복지단 선유리마트 파주",
+        "placeId":  "1127774049",
+        "url":  "https://map.naver.com/p/entry/place/1127774049",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "38-연풍",
+        "query":  "국군복지단 연풍마트 파주",
+        "placeId":  "1080037678",
+        "url":  "https://map.naver.com/p/entry/place/1080037678",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "39-행복마을",
+        "query":  "국군복지단 행복마을마트 파주",
+        "placeId":  "1014615004",
+        "url":  "https://map.naver.com/p/entry/place/1014615004",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "40--공-금성",
+        "query":  "국군복지단 금성마트 평택",
+        "placeId":  "1107732859",
+        "url":  "https://map.naver.com/p/entry/place/1107732859",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "41--해-서해",
+        "query":  "국군복지단 서해마트 평택",
+        "placeId":  "1100425564",
+        "url":  "https://map.naver.com/p/entry/place/1100425564",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "42-에이트빌",
+        "query":  "국군복지단 에이트빌마트 포천",
+        "placeId":  "1516938307",
+        "url":  "https://map.naver.com/p/entry/place/1516938307",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "43-오뚜기빌",
+        "query":  "국군복지단 오뚜기빌마트 포천",
+        "placeId":  "1806239015",
+        "url":  "https://map.naver.com/p/entry/place/1806239015",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "44-운천",
+        "query":  "국군복지단 운천마트 포천",
+        "placeId":  "1589008072",
+        "url":  "https://map.naver.com/p/entry/place/1589008072",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "45-이동승진",
+        "query":  "국군복지단 이동승진마트 포천",
+        "placeId":  "1373076929",
+        "url":  "https://map.naver.com/p/entry/place/1373076929",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "46-일동승진",
+        "query":  "국군복지단 일동승진마트 포천",
+        "placeId":  "1890563043",
+        "url":  "https://map.naver.com/p/entry/place/1890563043",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "47-포천푸르미",
+        "query":  "국군복지단 포천푸르미마트 포천",
+        "placeId":  "31652742",
+        "url":  "https://map.naver.com/p/entry/place/31652742",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "48-덕산대",
+        "query":  "국군복지단 덕산대마트 화성",
+        "placeId":  "1630453494",
+        "url":  "https://map.naver.com/p/entry/place/1630453494",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    },
+    {
+        "id":  "49-전승",
+        "query":  "국군복지단 전승마트 화성",
+        "placeId":  "1022935943",
+        "url":  "https://map.naver.com/p/entry/place/1022935943",
+        "verified":  true,
+        "verificationStatus":  "verified_search_resolution"
+    }
+]

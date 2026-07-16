@@ -23,6 +23,7 @@ function makeFacility(overrides: Partial<Facility>): Facility {
     organizationType: "지자체",
     note: null,
     homepageUrl: null,
+    naverMapUrl: null,
     address: null,
     phoneDisplay: null,
     phoneTel: null,
@@ -105,15 +106,18 @@ describe("FacilityDetailPage", () => {
     expect(link).toHaveAttribute("rel", "noopener noreferrer");
   });
 
-  it("주소가 있으면 지도에서 위치 보기가 네이버 지도로 연결된다 (AC-015)", async () => {
-    renderDetail(makeFacility({ address: "경기도 수원시 권선구" }));
+  it("검증된 지도 URL이 있으면 네이버 지도로 연결된다 (AC-015)", async () => {
+    renderDetail(makeFacility({
+      address: "경기도 수원시 권선구",
+      naverMapUrl: "https://map.naver.com/p/entry/place/123456",
+    }));
     const link = await screen.findByRole("link", { name: "지도에서 위치 보기" });
-    expect(link.getAttribute("href")).toContain("https://map.naver.com/p/search/");
+    expect(link).toHaveAttribute("href", "https://map.naver.com/p/entry/place/123456");
     expect(link).toHaveAttribute("rel", "noopener noreferrer");
   });
 
-  it("주소가 없으면 지도 버튼을 숨긴다", async () => {
-    renderDetail(makeFacility({ address: null }));
+  it("주소가 있어도 검증된 지도 URL이 없으면 지도 버튼을 숨긴다", async () => {
+    renderDetail(makeFacility({ address: "경기도 수원시 권선구", naverMapUrl: null }));
     await screen.findByRole("heading", { name: "테스트 시설" });
     expect(screen.queryByRole("link", { name: "지도에서 위치 보기" })).toBeNull();
   });

@@ -70,6 +70,17 @@ describe("facilities.json 데이터 검증", () => {
     }
   });
 
+  it("주소가 있는 257건은 검증된 네이버지도 링크를 사용한다", () => {
+    const mapLinks = facilities.filter((facility) => facility.naverMapUrl !== null);
+    expect(mapLinks).toHaveLength(257);
+    expect(
+      mapLinks.filter((facility) => facility.naverMapUrl?.includes("/entry/place/")),
+    ).toHaveLength(56);
+    for (const facility of mapLinks) {
+      expect(facility.naverMapUrl).toMatch(/^https:\/\/map\.naver\.com\/p\/(?:search|entry\/place)\//);
+    }
+  });
+
   it("비고 원문이 보존된다 — 엑셀 원문 대조 표본 (AC-010)", () => {
     const byRow = new Map(facilities.map((f) => [f.sourceRowNumber, f]));
     expect(byRow.get(1)?.note).toBe(
