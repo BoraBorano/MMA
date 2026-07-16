@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── 디자인 토큰 (PRD 8.3) ─────────────────────────────── */
+:root {
+  --color-navy: #173b70;
+  --color-navy-deep: #10284d;
+  --color-blue: #245fba;
+  --color-blue-soft: #e8f0fb;
+  --color-gold: #c88c35;
+  --color-gold-soft: #f7ead6;
+  --color-paper: #f5f2eb;
+  --color-surface: #fffefa;
+  --color-ink: #14213a;
+  /* PRD 8.3 원안(#626D7E)은 surface/paper 배경에서 14px 텍스트 기준 WCAG AA(4.5:1) 미달 확인(Sprint 8 실측) — 색조 유지하며 명도만 낮춘 대체값 */
+  --color-muted: #4c5766;
+  --color-line: #d9d5cc;
+
+  /* Gmarket Sans 라이선스 확정 전까지 시스템 한글 산세리프 사용 (PRD 8.2) */
+  --font-sans:
+    system-ui, "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕",
+    sans-serif;
+
+  /* 좌우 여백 (PRD 8.4): 0~380px → 15px */
+  --page-padding: 15px;
+
+  /* 모션 (PRD 9.2) */
+  --ease-screen: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (min-width: 381px) {
+  :root {
+    --page-padding: 18px;
+  }
+}
+
+@media (min-width: 681px) {
+  :root {
+    --page-padding: 28px;
+  }
+}
+
+/* ── 기본 문서 스타일 ─────────────────────────────────── */
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 16px; /* A11Y-003: 본문 기본 16px 이상 */
+  line-height: 1.6;
+  word-break: keep-all;
+}
+
+/* 화면 제목이 포커스를 받을 때 외곽선을 표시하지 않는다(프로그램적 이동 전용) */
+h1[tabindex="-1"]:focus {
+  outline: none;
+}
+
+/* ── 포커스 표시 (A11Y-008): 3px 금색 외곽선, 2px 간격 ── */
+:focus-visible {
+  outline: 3px solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+/* ── 화면 전환 모션 (PRD 9.2) ─────────────────────────── */
+@keyframes screen-enter {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+    filter: blur(3px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+.screen-enter {
+  animation: screen-enter 400ms var(--ease-screen) both;
+}
+
+/* 업종 버튼 등장 (PRD 9.2): 14px 이동, 35ms 간격, 최대 210ms 지연 */
+@keyframes category-enter {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ── 모션 축소 (A11Y-012): 장식용 전환·등장 효과 제거 ── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    animation-delay: 0ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
