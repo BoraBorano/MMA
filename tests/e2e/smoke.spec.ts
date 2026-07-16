@@ -33,8 +33,3 @@ test("첫 탭 포커스가 본문 바로가기이고 본문으로 이동한다 (
   await skipLink.press("Enter");
   await expect(page).toHaveURL(/#main-content$/);
 });
-
-test("데이터 기준일이 표시된다 (FR-026)", async ({ page }) => {
-  await page.goto("/");
-  await expect(page.getByText(/데이터 기준일 2026\. 4\. 30\./)).toBeVisible();
-});

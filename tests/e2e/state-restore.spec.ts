@@ -1,6 +1,7 @@
 import { expect, test } from "@playwright/test";
 
 test("상세→브라우저 뒤로가기 시 검색어와 스크롤 위치를 복원한다 (AC-016)", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 500 });
   await page.goto("/region/anseong/sports");
   const search = page.getByRole("searchbox");
   await search.fill("게이트볼");

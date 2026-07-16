@@ -48,21 +48,16 @@ test("모바일 토글이 지도와 지역 목록을 전환한다 (FR-005, AC-00
   await expect(page.getByRole("link", { name: "가평군" })).toBeVisible();
 });
 
-test("지역 목록은 31개이고 부천시도 선택 가능하다 (6.1.3)", async ({ page }) => {
+test("지역 목록은 31개이고 부천시도 선택 가능하다 (6.1.3)", async ({ page }, testInfo) => {
   await page.goto("/");
+  const isMobile = (testInfo.project.use.viewport?.width ?? 1440) <= 680;
+  if (isMobile) {
+    await page.getByRole("button", { name: "지역 이름으로 선택" }).click();
+  }
   const regionLinks = page.locator("main ul").first().getByRole("link");
   await expect(regionLinks).toHaveCount(31);
-  await page.getByRole("button", { name: "부천시 선택" }).click();
+  await page.getByRole("link", { name: "부천시" }).click();
   await expect(page).toHaveURL("/region/bucheon");
-});
-
-test("준비 중 카드는 키보드 탭 순서에 없다 (FR-024)", async ({ page }) => {
-  await page.goto("/");
-  const focusable = await page
-    .locator("section:has(h2:text('준비 중인 기능'))")
-    .locator("a, button, [tabindex]")
-    .count();
-  expect(focusable).toBe(0);
 });
 
 test("잘못된 지역 URL은 찾을 수 없음 화면을 보여준다", async ({ page }) => {

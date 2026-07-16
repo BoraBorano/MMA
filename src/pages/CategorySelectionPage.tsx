@@ -1,7 +1,6 @@
 import { useParams } from "react-router-dom";
 import { ErrorState } from "@/components/common/ErrorState";
 import { LoadingState } from "@/components/common/LoadingState";
-import { ProgressIndicator } from "@/components/common/ProgressIndicator";
 import { CategoryGrid } from "@/components/category/CategoryGrid";
 import { findRegionByCode } from "@/data/regionConfig";
 import { useFacilityData } from "@/hooks/useFacilityData";
@@ -22,7 +21,6 @@ export function CategorySelectionPage() {
 
   return (
     <div className="screen-enter">
-      <ProgressIndicator step={2} />
       <h1
         ref={headingRef}
         tabIndex={-1}

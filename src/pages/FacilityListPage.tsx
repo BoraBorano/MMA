@@ -2,7 +2,6 @@ import { useEffect, useMemo, useState } from "react";
 import { useParams } from "react-router-dom";
 import { ErrorState } from "@/components/common/ErrorState";
 import { LoadingState } from "@/components/common/LoadingState";
-import { ProgressIndicator } from "@/components/common/ProgressIndicator";
 import { useAnnounce } from "@/components/common/LiveRegion";
 import { EmptyResult } from "@/components/facility/EmptyResult";
 import { FacilityList } from "@/components/facility/FacilityList";
@@ -70,7 +69,6 @@ export function FacilityListPage() {
 
   return (
     <div className="screen-enter">
-      <ProgressIndicator step={3} />
       <div className="mt-2">
         <SelectionBreadcrumb region={region} category={category} />
       </div>

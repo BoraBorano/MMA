@@ -50,7 +50,6 @@ describe("RegionSelectionPage", () => {
       screen.getByRole("heading", { name: "어느 지역의 혜택을 찾으세요?" }),
     ).toBeInTheDocument();
     expect(await screen.findByText("지도나 지역 이름을 눌러주세요.")).toBeInTheDocument();
-    expect(screen.getByText("3단계 중 1단계: 지역 선택")).toBeInTheDocument();
   });
 
   it("31개 시·군을 가나다순으로 표시한다 (FR-004)", () => {
@@ -103,15 +102,6 @@ describe("RegionSelectionPage", () => {
     expect(await screen.findByText("지역 이름을 눌러주세요.")).toBeInTheDocument();
     expect(screen.queryByRole("button", { name: "지도에서 선택" })).toBeNull();
     expect(screen.getByRole("link", { name: "수원시" })).toBeInTheDocument();
-  });
-
-  it("후속 기능 카드는 상호작용 요소가 아니다 (FR-024)", () => {
-    renderPage();
-    const section = screen.getByRole("region", { name: "준비 중인 기능" });
-    expect(within(section).queryByRole("link")).toBeNull();
-    expect(within(section).queryByRole("button")).toBeNull();
-    expect(within(section).getByText("병역명문가 신청하기")).toBeInTheDocument();
-    expect(within(section).getAllByText("준비 중")).toHaveLength(1);
   });
 
   it("경기도 군마트 찾기 진입점이 실제 링크로 동작한다 (PX 부가 기능)", () => {

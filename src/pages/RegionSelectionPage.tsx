@@ -1,7 +1,5 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { ProgressIndicator } from "@/components/common/ProgressIndicator";
-import { ComingSoonSection } from "@/components/feedback/ComingSoonSection";
 import { PxEntryCta } from "@/components/feedback/PxEntryCta";
 import { RegionList } from "@/components/region/RegionList";
 import { RegionModeToggle, type RegionMode } from "@/components/region/RegionModeToggle";
@@ -43,10 +41,6 @@ export function RegionSelectionPage() {
         먼저 지역을 골라주세요. 다음 화면에서 업종을 선택할 수 있어요.
       </p>
 
-      <div className="mt-6">
-        <ProgressIndicator step={1} />
-      </div>
-
       <h1
         ref={headingRef}
         tabIndex={-1}
@@ -86,8 +80,6 @@ export function RegionSelectionPage() {
       </div>
 
       <PxEntryCta />
-
-      <ComingSoonSection />
     </div>
   );
 }

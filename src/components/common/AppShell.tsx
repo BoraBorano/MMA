@@ -1,6 +1,5 @@
 import type { ReactNode } from "react";
 import { LiveRegionProvider } from "@/components/common/LiveRegion";
-import { ServiceFooter } from "@/components/common/ServiceFooter";
 import { ServiceHeader } from "@/components/common/ServiceHeader";
 import { SkipLink } from "@/components/common/SkipLink";
 
@@ -19,7 +18,6 @@ export function AppShell({ children }: { children: ReactNode }) {
         >
           {children}
         </main>
-        <ServiceFooter />
       </div>
     </LiveRegionProvider>
   );

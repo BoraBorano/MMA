@@ -2,7 +2,6 @@ import { Badge } from "@/components/common/Badge";
 import { Button } from "@/components/common/Button";
 import { ErrorState } from "@/components/common/ErrorState";
 import { LoadingState } from "@/components/common/LoadingState";
-import { ProgressIndicator } from "@/components/common/ProgressIndicator";
 
 const TOKEN_NAMES = [
   "navy",
@@ -44,15 +43,6 @@ export function StyleguidePage() {
       </section>
 
       <section>
-        <h2 className="mb-3 text-xl font-bold">진행 표시</h2>
-        <div className="space-y-2">
-          <ProgressIndicator step={1} />
-          <ProgressIndicator step={2} />
-          <ProgressIndicator step={3} />
-        </div>
-      </section>
-
-      <section>
         <h2 className="mb-3 text-xl font-bold">버튼</h2>
         <div className="flex flex-wrap items-center gap-3">
           <Button>전화하기</Button>
@@ -65,8 +55,6 @@ export function StyleguidePage() {
       <section>
         <h2 className="mb-3 text-xl font-bold">배지</h2>
         <div className="flex flex-wrap gap-3">
-          <Badge variant="progress">1 / 3</Badge>
-          <Badge variant="comingSoon">준비 중</Badge>
           <Badge variant="provincial">경기도 운영 시설</Badge>
         </div>
       </section>

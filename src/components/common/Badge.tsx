@@ -8,13 +8,11 @@ const badgeVariants = cva(
   {
     variants: {
       variant: {
-        progress: "bg-blue-soft text-navy",
-        comingSoon: "bg-gold-soft text-navy-deep",
         provincial: "border border-navy bg-surface text-navy",
       },
     },
     defaultVariants: {
-      variant: "progress",
+      variant: "provincial",
     },
   },
 );
