@@ -107,7 +107,7 @@ test("존재하지 않는 매장 ID는 찾을 수 없음 화면을 보여준다"
 
 test("예우시설 기존 흐름은 그대로 동작한다 (회귀)", async ({ page }) => {
   await page.goto("/");
-  await page.getByRole("link", { name: "수원시" }).click();
+  await page.getByRole("button", { name: "수원시 선택" }).click();
   await expect(page).toHaveURL("/region/suwon");
   await expect(
     page.getByRole("heading", { name: "수원시에서 어떤 시설을 찾으세요?" }),

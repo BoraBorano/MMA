@@ -30,6 +30,10 @@ export default {
       maxWidth: {
         content: "1180px",
       },
+      transitionDuration: {
+        /* PRD 9.2 토글 전환 */
+        "240": "240ms",
+      },
     },
   },
   plugins: [animate],

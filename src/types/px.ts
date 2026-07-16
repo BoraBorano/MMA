@@ -48,15 +48,8 @@ export interface PxDataset {
   stores: PxStore[];
 }
 
-/** 고정형 경기도 SVG 도식 지도 — 시·군 1개 항목 */
-export interface PxRegionMapEntry {
-  region: string;
-  displayName: string;
-  paths: string[];
-  label: [number, number];
-}
-
-export type PxRegionMap = PxRegionMapEntry[];
+/** 고정형 경기도 SVG 도식 지도 — 지역 선택 화면과 공유 (src/types/regionMap.ts) */
+export type { RegionMapEntry as PxRegionMapEntry, RegionMap as PxRegionMap } from "./regionMap";
 
 /** 화면에 배치할 마커 좌표 — 근접 마커 겹침 해소 후 값 */
 export interface PxMarkerPosition {

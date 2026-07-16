@@ -15,15 +15,14 @@ test.describe("키보드 전용 전체 흐름 (AC-018)", () => {
     await page.emulateMedia({ reducedMotion: "reduce" });
     await page.goto("/");
 
-    // SkipLink → 지역 링크로 포커스 이동
+    // SkipLink → 토글 → 지도 시·군 순으로 포커스가 이동한다
     await page.keyboard.press("Tab"); // SkipLink
-    await page.keyboard.press("Tab"); // 헤더 홈 링크
-    await page.keyboard.press("Tab"); // 첫 지역(가평군)
-    await expect(page.getByRole("link", { name: "가평군" })).toBeFocused();
+    await expect(page.getByRole("link", { name: "본문 바로가기" })).toBeFocused();
 
-    // 수원시까지 탭 이동 (가나다순 목록에서 위치 계산 없이 텍스트로 포커스 확인 가능한 방식 사용)
-    const suwonLink = page.getByRole("link", { name: "수원시" });
-    await suwonLink.focus();
+    // 지도 시·군을 키보드로 선택해 업종 화면으로 이동한다 (FR-003 키보드 접근)
+    const suwonMapButton = page.getByRole("button", { name: "수원시 선택" });
+    await suwonMapButton.waitFor();
+    await suwonMapButton.focus();
     await page.keyboard.press("Enter");
     await expect(page).toHaveURL("/region/suwon");
     await expect(page.getByRole("heading", { name: /어떤 시설을 찾으세요/ })).toBeFocused();
@@ -110,7 +109,7 @@ test.describe("모션 축소 설정 (A11Y-012, AC-020)", () => {
   test("모션 축소 환경에서도 핵심 흐름을 완료할 수 있다", async ({ page }) => {
     await page.emulateMedia({ reducedMotion: "reduce" });
     await page.goto("/");
-    await page.getByRole("link", { name: "수원시" }).click();
+    await page.getByRole("button", { name: "수원시 선택" }).click();
     await expect(page.getByRole("heading", { name: /어떤 시설을 찾으세요/ })).toBeVisible();
   });
 });
