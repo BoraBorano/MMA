@@ -74,6 +74,8 @@ test.describe("실브라우저 axe 스캔 — 페이지별 접근성 위반 0 (W
     { name: "시설 상세", path: "/facility/f-001" },
     { name: "시설 상세(연락처 없음)", path: "/facility/f-192" },
     { name: "지역 시설 없음", path: "/region/gapyeong/education" },
+    { name: "PX 찾기", path: "/px" },
+    { name: "PX 상세", path: `/px/${encodeURIComponent("01-맹호")}` },
   ];
 
   for (const { name, path } of pages) {

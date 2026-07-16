@@ -17,8 +17,10 @@ test("상세→브라우저 뒤로가기 시 검색어와 스크롤 위치를 �
   await expect(page).toHaveURL("/region/anseong/sports");
   await expect(search).toHaveValue("게이트볼");
 
-  const scrollAfter = await page.evaluate(() => window.scrollY);
-  expect(scrollAfter).toBeGreaterThan(0);
+  // 스크롤 복원은 useEffect에서 비동기로 실행되므로 단발성 확인 대신 재시도 가능한 폴링을 사용한다.
+  await expect
+    .poll(() => page.evaluate(() => window.scrollY))
+    .toBeGreaterThan(0);
 });
 
 test("업종을 다시 선택해 진입하면 검색어가 초기화된다 (5.4)", async ({ page }) => {

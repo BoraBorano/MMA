@@ -37,6 +37,16 @@ npm run convert:data
 
 데이터 갱신 후에는 `npm test`로 [src/data/facilities.test.ts](src/data/facilities.test.ts)의 검증(총 건수, 공개 건수, 광역 매핑, 필드 통계, 비고 원문 표본)이 여전히 유효한지 확인한다. 수치가 바뀌면 테스트가 실패하며, 이는 의도된 변경인지 담당자 확인이 필요하다는 신호다.
 
+### 경기도 군마트(PX) 데이터 갱신
+
+`public/data/px-stores-gyeonggi.json`(매장)과 `public/data/gyeonggi-map.json`(고정형 지도)은 예우시설과 별개로 관리한다. 원본 스냅샷을 갱신한 뒤 재생성하려면:
+
+```bash
+node data-source/px/scripts/prepare-px-data.mjs
+```
+
+원본 출처와 정제 규칙, 좌표 후보값의 신뢰 기준은 [data-source/px/README.md](data-source/px/README.md)에 정리되어 있다. 좌표(`lat`/`lng`/`svgX`/`svgY`)는 국방부 공식 필드가 아니라 2차 자료를 이름·주소로 대조한 표시용 후보값이라는 점에 주의한다.
+
 ## 빌드
 
 ```bash
@@ -68,18 +78,18 @@ npx playwright install chromium
 ## 프로젝트 구조
 
 ```
-data-source/     정제 엑셀 원본 보관
+data-source/     정제 엑셀 원본, PX 원본·재생성 스크립트 보관
 scripts/         엑셀 → JSON 변환 스크립트
-public/data/     변환된 시설 데이터(facilities.json)
+public/data/     변환된 시설 데이터(facilities.json), PX 매장·지도 데이터
 src/
   app/           라우터, 앱 골격
-  components/    공통·지역·업종·시설·후속기능 컴포넌트
+  components/    공통·지역·업종·시설·후속기능·px 컴포넌트
   data/          지역·업종 설정(코드·표시명·매핑)
   hooks/         포커스 이동, 데이터 로딩, 상태 복원
   lib/           유틸리티, 데이터 변환 순수 함수, 세션 저장소
-  pages/         화면 단위 페이지
-  services/      필터링, 외부 링크, 데이터 저장소
-  types/         전역 타입 정의
+  pages/         화면 단위 페이지 (예우시설 + PX 찾기)
+  services/      필터링, 외부 링크, 데이터 저장소 (예우시설 + PX)
+  types/         전역 타입 정의 (px.ts는 예우시설 스키마와 분리)
 tests/e2e/       Playwright 시나리오
 docs/            PRD, 아키텍처, 구현계획, 검수 보고서
 ```
@@ -91,6 +101,10 @@ docs/            PRD, 아키텍처, 구현계획, 검수 보고서
 - [docs/IMPLEMENTATION_PLAN.md](docs/IMPLEMENTATION_PLAN.md) — Sprint별 구현계획
 - [docs/RELEASE_CHECKLIST.md](docs/RELEASE_CHECKLIST.md) — 출시 전 최종 검수 체크리스트
 
+## 경기도 군마트(PX) 찾기
+
+예우시설 기능과 독립된 부가 기능이다(`/px`, `/px/:storeId`). 첫 화면의 "경기도 군마트 찾기" 진입점에서 시작하며, 국방부 공식 영외마트 현황(경기도 49개)을 고정형 SVG 도식 지도와 목록으로 함께 제공한다. 타일 지도·GPS·지도 SDK는 사용하지 않는다. 데이터·타입·필터 로직은 예우시설과 완전히 분리되어 있다(`src/types/px.ts`, `src/services/pxFilterService.ts`, `src/services/pxRepository.ts`, `src/components/px/`).
+
 ## 이번 MVP 범위 제외
 
-가까운 군마트 실제 검색, 병역명문가 신청 실제 연동, 관리자 엑셀 업로드, 로그인/즐겨찾기, AI 추천, 경기도 행정구역 지도(SVG) — 상세는 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) §13 참조.
+병역명문가 신청 실제 연동, 관리자 엑셀 업로드, 로그인/즐겨찾기, AI 추천, 경기도 행정구역 지도(예우시설 화면 자체의 지도 선택 방식) — 상세는 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) §13 참조.

@@ -1,6 +1,6 @@
 import { Badge } from "@/components/common/Badge";
 
-const COMING_SOON_FEATURES = ["가까운 군마트 찾기", "병역명문가 신청하기"] as const;
+const COMING_SOON_FEATURES = ["병역명문가 신청하기"] as const;
 
 /**
  * 후속 기능 준비 중 표시 (FR-024, PRD 4.3).
@@ -12,7 +12,7 @@ export function ComingSoonSection() {
       <h2 id="coming-soon-heading" className="text-lg font-bold text-navy-deep">
         준비 중인 기능
       </h2>
-      <ul className="mt-3 grid gap-3 md:grid-cols-2">
+      <ul className="mt-3 grid max-w-sm gap-3">
         {COMING_SOON_FEATURES.map((feature) => (
           <li
             key={feature}

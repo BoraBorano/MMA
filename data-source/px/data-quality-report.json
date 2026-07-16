@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-07-16T01:56:06.552Z",
+  "officialNationwideRows": 120,
+  "officialGyeonggiRows": 49,
+  "coordinateMatched": 49,
+  "coordinateCoveragePercent": 100,
+  "unmatchedCoordinates": [],
+  "outOfSvgBounds": [],
+  "markerPositionsAdjustedToRegion": [
+    {
+      "name": "올림픽",
+      "region": "양주",
+      "lat": 37.72,
+      "lng": 126.92,
+      "svgX": 341.55,
+      "svgY": 322
+    }
+  ],
+  "validation": {
+    "uniqueIds": true,
+    "allHaveRequiredOfficialFields": true,
+    "allLinksUseHttps": true
+  }
+}

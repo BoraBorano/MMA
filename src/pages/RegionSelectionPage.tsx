@@ -1,5 +1,6 @@
 import { ProgressIndicator } from "@/components/common/ProgressIndicator";
 import { ComingSoonSection } from "@/components/feedback/ComingSoonSection";
+import { PxEntryCta } from "@/components/feedback/PxEntryCta";
 import { RegionList } from "@/components/region/RegionList";
 import { REGIONS } from "@/data/regionConfig";
 import { useFocusOnNavigate } from "@/hooks/useFocusOnNavigate";
@@ -35,6 +36,8 @@ export function RegionSelectionPage() {
       <div className="mt-5">
         <RegionList regions={publishedRegions} />
       </div>
+
+      <PxEntryCta />
 
       <ComingSoonSection />
     </div>

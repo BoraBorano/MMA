@@ -54,9 +54,14 @@ describe("RegionSelectionPage", () => {
     const section = screen.getByRole("region", { name: "준비 중인 기능" });
     expect(within(section).queryByRole("link")).toBeNull();
     expect(within(section).queryByRole("button")).toBeNull();
-    expect(within(section).getByText("가까운 군마트 찾기")).toBeInTheDocument();
     expect(within(section).getByText("병역명문가 신청하기")).toBeInTheDocument();
-    expect(within(section).getAllByText("준비 중")).toHaveLength(2);
+    expect(within(section).getAllByText("준비 중")).toHaveLength(1);
+  });
+
+  it("경기도 군마트 찾기 진입점이 실제 링크로 동작한다 (PX 부가 기능)", () => {
+    renderPage();
+    const link = screen.getByRole("link", { name: /경기도 군마트 찾기/ });
+    expect(link).toHaveAttribute("href", "/px");
   });
 
   it("접근성 위반이 없다", async () => {
