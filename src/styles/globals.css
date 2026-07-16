@@ -17,10 +17,10 @@
   --color-muted: #4c5766;
   --color-line: #d9d5cc;
 
-  /* Gmarket Sans 라이선스 확정 전까지 시스템 한글 산세리프 사용 (PRD 8.2) */
+  /* Gmarket Sans (PRD 8.2, 라이선스 확인 완료 — 파일을 public/fonts/에 내장, 외부 CDN 의존 없음) */
   --font-sans:
-    system-ui, "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕",
-    sans-serif;
+    "Gmarket Sans", system-ui, "Apple SD Gothic Neo", "Malgun Gothic",
+    "맑은 고딕", sans-serif;
 
   /* 좌우 여백 (PRD 8.4): 0~380px → 15px */
   --page-padding: 15px;
@@ -39,6 +39,33 @@
   :root {
     --page-padding: 28px;
   }
+}
+
+/*
+ * Gmarket Sans — 눈누(noonnu.cc) 공식 배포 파일을 로컬에 내장했다(외부 CDN 무의존).
+ * 단일 패밀리에 굵기 3종(300/500/700)을 포함하므로 font-light/font-normal/font-bold가
+ * 그대로 대응한다.
+ */
+@font-face {
+  font-family: "Gmarket Sans";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/GmarketSansLight.woff") format("woff");
+}
+@font-face {
+  font-family: "Gmarket Sans";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/GmarketSansMedium.woff") format("woff");
+}
+@font-face {
+  font-family: "Gmarket Sans";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/GmarketSansBold.woff") format("woff");
 }
 
 /* ── 기본 문서 스타일 ─────────────────────────────────── */
