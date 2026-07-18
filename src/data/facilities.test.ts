@@ -15,9 +15,9 @@ describe("facilities.json 데이터 검증", () => {
     expect(dataUpdatedAt).toBe("2026-04-30");
   });
 
-  it("총 440건, 공개 438건이다 (확정 결정)", () => {
-    expect(facilities).toHaveLength(440);
-    expect(published).toHaveLength(438);
+  it("총 433건, 공개 431건이다 (확정 결정)", () => {
+    expect(facilities).toHaveLength(433);
+    expect(published).toHaveLength(431);
   });
 
   it("비공개 2건은 감면 내용 누락 건이다 (연번 39, 41)", () => {
@@ -57,9 +57,9 @@ describe("facilities.json 데이터 검증", () => {
     const count = (predicate: (facility: Facility) => boolean) =>
       facilities.filter(predicate).length;
     expect(count((f) => f.homepageUrl !== null)).toBe(85);
-    expect(count((f) => f.address !== null)).toBe(257);
+    expect(count((f) => f.address !== null)).toBe(253);
     expect(count((f) => f.phoneTel !== null)).toBe(86);
-    expect(count((f) => f.note !== null)).toBe(376);
+    expect(count((f) => f.note !== null)).toBe(369);
   });
 
   it("홈페이지 URL은 전부 http/https다", () => {
@@ -70,12 +70,12 @@ describe("facilities.json 데이터 검증", () => {
     }
   });
 
-  it("주소가 있는 257건은 검증된 네이버지도 링크를 사용한다", () => {
+  it("주소가 있는 253건은 검증된 네이버지도 링크를 사용한다", () => {
     const mapLinks = facilities.filter((facility) => facility.naverMapUrl !== null);
-    expect(mapLinks).toHaveLength(257);
+    expect(mapLinks).toHaveLength(253);
     expect(
       mapLinks.filter((facility) => facility.naverMapUrl?.includes("/entry/place/")),
-    ).toHaveLength(56);
+    ).toHaveLength(54);
     for (const facility of mapLinks) {
       expect(facility.naverMapUrl).toMatch(/^https:\/\/map\.naver\.com\/p\/(?:search|entry\/place)\//);
     }

@@ -39,6 +39,35 @@ describe("useListStateRestore", () => {
     expect(result.current.initialQuery).toBe("체육관");
   });
 
+  it("새로고침(reload)은 POP이어도 저장된 검색어를 복원하지 않는다 (QA BUG-004)", () => {
+    saveListState(key, { searchQuery: "체육관", scrollY: 400 });
+    mockedUseNavigationType.mockReturnValue(NavigationType.Pop);
+    const navSpy = vi
+      .spyOn(performance, "getEntriesByType")
+      .mockReturnValue([{ type: "reload" } as unknown as PerformanceEntry]);
+
+    const { result } = renderHook(() => useListStateRestore(key), { wrapper });
+    expect(result.current.initialQuery).toBe("");
+
+    navSpy.mockRestore();
+  });
+
+  it("새로고침일 때는 restoreScrollPosition이 scrollTo를 호출하지 않는다 (QA BUG-004)", () => {
+    saveListState(key, { searchQuery: "", scrollY: 500 });
+    mockedUseNavigationType.mockReturnValue(NavigationType.Pop);
+    const navSpy = vi
+      .spyOn(performance, "getEntriesByType")
+      .mockReturnValue([{ type: "reload" } as unknown as PerformanceEntry]);
+    const scrollToSpy = vi.spyOn(window, "scrollTo").mockImplementation(() => undefined);
+
+    const { result } = renderHook(() => useListStateRestore(key), { wrapper });
+    act(() => result.current.restoreScrollPosition());
+
+    expect(scrollToSpy).not.toHaveBeenCalled();
+    scrollToSpy.mockRestore();
+    navSpy.mockRestore();
+  });
+
   it("PUSH일 때는 restoreScrollPosition이 scrollTo를 호출하지 않는다", () => {
     saveListState(key, { searchQuery: "", scrollY: 500 });
     mockedUseNavigationType.mockReturnValue(NavigationType.Push);
