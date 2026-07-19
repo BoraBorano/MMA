@@ -41,6 +41,7 @@ describe("RegionSelectionPage", () => {
   afterEach(() => {
     vi.restoreAllMocks();
     regionMapRepository.resetRegionMapCache();
+    sessionStorage.clear();
   });
 
   it("확정 카피를 표시한다 (PRD 7.2)", async () => {
@@ -95,6 +96,35 @@ describe("RegionSelectionPage", () => {
     await user.click(listToggle);
     expect(listToggle).toHaveAttribute("aria-pressed", "true");
     expect(mapToggle).toHaveAttribute("aria-pressed", "false");
+  });
+
+  it("다른 화면에 다녀와도 마지막 토글 상태를 유지한다 (AC-003, QA BUG-007)", async () => {
+    const user = userEvent.setup();
+    const first = renderPage();
+    await user.click(await first.findByRole("button", { name: "지역 이름으로 선택" }));
+    first.unmount();
+
+    renderPage();
+    const listToggle = await screen.findByRole("button", { name: "지역 이름으로 선택" });
+    expect(listToggle).toHaveAttribute("aria-pressed", "true");
+    expect(screen.getByRole("button", { name: "지도에서 선택" })).toHaveAttribute(
+      "aria-pressed",
+      "false",
+    );
+  });
+
+  it("지역 라벨은 모든 지역 path 위의 별도 레이어에 그려진다 (QA BUG-009)", async () => {
+    const { container } = renderPage();
+    await screen.findByRole("button", { name: "수원시 선택" });
+    const svg = container.querySelector("svg[role='group']");
+    if (svg === null) throw new Error("지도 SVG가 없습니다");
+    // 라벨 텍스트는 지역 <g role="button"> 내부가 아니라 마지막 라벨 레이어에 있어야 한다
+    const labelLayer = svg.lastElementChild;
+    expect(labelLayer?.getAttribute("aria-hidden")).toBe("true");
+    expect(labelLayer?.querySelectorAll("text")).toHaveLength(testRegionMap.length);
+    for (const regionGroup of svg.querySelectorAll("g[role='button']")) {
+      expect(regionGroup.querySelector("text")).toBeNull();
+    }
   });
 
   it("지도 데이터를 불러오지 못하면 지역 이름 목록만으로 동작한다 (대체 수단)", async () => {

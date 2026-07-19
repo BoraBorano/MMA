@@ -70,9 +70,10 @@ describe("facilities.json 데이터 검증", () => {
     }
   });
 
-  it("주소가 있는 253건은 검증된 네이버지도 링크를 사용한다", () => {
+  // f-001(과천시 시립예술단체)은 물리 시설이 아니라 지도 검색이 성립하지 않아 링크를 제거했다 (QA BUG-010) → 253 - 1 = 252
+  it("지도 링크 252건은 검증된 네이버지도 링크를 사용한다", () => {
     const mapLinks = facilities.filter((facility) => facility.naverMapUrl !== null);
-    expect(mapLinks).toHaveLength(253);
+    expect(mapLinks).toHaveLength(252);
     expect(
       mapLinks.filter((facility) => facility.naverMapUrl?.includes("/entry/place/")),
     ).toHaveLength(54);
