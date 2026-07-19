@@ -7,6 +7,7 @@ import { RegionSelectMap } from "@/components/region/RegionSelectMap";
 import { REGIONS, findRegionBySourceLabel } from "@/data/regionConfig";
 import { useFocusOnNavigate } from "@/hooks/useFocusOnNavigate";
 import { useRegionMap } from "@/hooks/useRegionMap";
+import { loadRegionMode, saveRegionMode } from "@/lib/regionModeStorage";
 import { cn } from "@/lib/utils";
 
 const publishedRegions = REGIONS.filter((region) => region.isPublished);
@@ -21,7 +22,13 @@ export function RegionSelectionPage() {
   const headingRef = useFocusOnNavigate();
   const navigate = useNavigate();
   const mapLoad = useRegionMap();
-  const [mode, setMode] = useState<RegionMode>("map");
+  // 업종 화면에 다녀와도 마지막 선택 방식을 유지한다 (AC-003, QA BUG-007)
+  const [mode, setMode] = useState<RegionMode>(() => loadRegionMode() ?? "map");
+
+  function handleModeChange(next: RegionMode) {
+    setMode(next);
+    saveRegionMode(next);
+  }
 
   const mapAvailable = mapLoad.status === "ready";
 
@@ -54,7 +61,7 @@ export function RegionSelectionPage() {
 
       {mapAvailable && (
         <div className="mt-4">
-          <RegionModeToggle mode={mode} onChange={setMode} />
+          <RegionModeToggle mode={mode} onChange={handleModeChange} />
         </div>
       )}
 

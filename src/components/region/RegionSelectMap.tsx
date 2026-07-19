@@ -18,6 +18,7 @@ function handleActivateKey(event: KeyboardEvent, activate: () => void) {
 /** 면적이 작아 라벨이 이웃과 겹치는 시·군 — 라벨만 축소한다(선택 영역은 동일). */
 const SMALL_LABEL_REGIONS = new Set([
   "과천",
+  "안산",
   "광명",
   "군포",
   "구리",
@@ -59,21 +60,31 @@ export function RegionSelectMap({ regionMap, onSelect }: RegionSelectMapProps) {
           {entry.paths.map((d, index) => (
             <path key={index} d={d} />
           ))}
-          {/* 밀집 지역에서도 읽히도록 surface 색 halo를 두른다 (paint-order: stroke) */}
+        </g>
+      ))}
+      {/*
+       * 라벨 레이어 — 모든 지역 path보다 뒤(DOM상 마지막)에 그려 이웃 지역 path에
+       * 가려지지 않게 한다 (QA BUG-009). pointer-events가 없으므로 라벨 위 클릭은
+       * 라벨 좌표가 속한 지역 path로 그대로 전달된다 (QA BUG-008 — 라벨 좌표는
+       * 반드시 해당 지역 폴리곤 내부에 있어야 한다).
+       */}
+      <g aria-hidden="true" className="pointer-events-none">
+        {regionMap.map((entry) => (
+          /* 밀집 지역에서도 읽히도록 surface 색 halo를 두른다 (paint-order: stroke) */
           <text
+            key={entry.region}
             x={entry.label[0]}
             y={entry.label[1]}
             textAnchor="middle"
-            aria-hidden="true"
             className={cn(
-              "pointer-events-none fill-ink stroke-surface font-bold [paint-order:stroke] [stroke-width:3px]",
+              "fill-ink stroke-surface font-bold [paint-order:stroke] [stroke-width:3px]",
               SMALL_LABEL_REGIONS.has(entry.region) ? "text-[11px]" : "text-[15px]",
             )}
           >
             {entry.displayName}
           </text>
-        </g>
-      ))}
+        ))}
+      </g>
     </svg>
   );
 }
