@@ -9,6 +9,7 @@ import type { Facility } from "@/types";
 function makeFacility(overrides: Partial<Facility>): Facility {
   return {
     facilityId: "f-001",
+    sourceKey: "f",
     sourceRowNumber: 1,
     sourceRegion: "수원",
     isProvincial: false,
@@ -24,6 +25,9 @@ function makeFacility(overrides: Partial<Facility>): Facility {
     organizationType: null,
     note: null,
     homepageUrl: null,
+    naverPlaceId: null,
+    lat: null,
+    lng: null,
     naverMapUrl: null,
     address: null,
     phoneDisplay: null,

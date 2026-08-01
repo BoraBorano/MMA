@@ -5,3 +5,6 @@ test-results/
 *.local
 .DS_Store
 .claude/settings.local.json
+
+# 오피스 임시 잠금 파일 (엑셀·워드 등이 열려 있을 때 생성)
+~$*

@@ -11,8 +11,9 @@ test("목록에서 상세로 이동하고 정보를 표시한다 (AC-009)", asyn
 test("전화하기 버튼은 tel: 링크이고, 홈페이지·지도는 새 탭으로 열린다 (AC-012, AC-014, AC-015)", async ({
   page,
 }) => {
-  // 연번 1 과천시 시립예술단체: 전화·URL·주소 모두 보유
-  await page.goto("/facility/f-001");
+  // f-002 과천시 청소년수련관: 전화·URL·지도 링크 모두 보유
+  // (f-001은 물리 시설이 아니라 지도 링크를 제거했다 — QA BUG-010)
+  await page.goto("/facility/f-002");
   const telLink = page.getByRole("link", { name: "전화하기" });
   await expect(telLink).toHaveAttribute("href", /^tel:/);
 

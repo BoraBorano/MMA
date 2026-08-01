@@ -10,6 +10,20 @@ export function normalizeWhitespace(value: string): string {
   return value.replace(/\t/g, " ").replace(/ {2,}/g, " ").trim();
 }
 
+/**
+ * 여러 줄 원문 보존용. 개행은 유지하되 줄 단위로 공백만 정리한다.
+ * 감면 내용처럼 원문의 줄 구조가 의미를 갖는 필드에 사용한다 (GYEONGGI_NORTH_DATA_PLAN §4).
+ */
+export function normalizeMultilineText(value: string): string {
+  return value
+    .replace(/\r\n?/g, "\n") // 개행 표기 통일
+    .split("\n")
+    .map((line) => line.replace(/\t/g, " ").replace(/ {2,}/g, " ").trimEnd())
+    .join("\n")
+    .replace(/\n{3,}/g, "\n\n") // 빈 줄 과다 축약
+    .trim();
+}
+
 /** 빈 문자열, "-", 엑셀 오류 문자열을 null로 변환 (PRD 10.5 + v1.1 보강) */
 export function toNullable(value: string): string | null {
   const trimmed = value.trim();

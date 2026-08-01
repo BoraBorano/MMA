@@ -45,6 +45,7 @@ export const REGIONS: Region[] = (
 ).map(([code, label, sourceLabel], index) => ({
   code,
   label,
+  provinceCode: "gyeonggi" as const,
   sourceLabels: [sourceLabel],
   isPublished: true,
   sortOrder: index,

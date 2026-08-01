@@ -18,24 +18,47 @@ import {
 } from "../src/data/regionConfig";
 import {
   cleanAddress,
+  normalizeMultilineText,
   normalizeNote,
   normalizeWhitespace,
   parsePhone,
   toNullable,
   validateHomepageUrl,
 } from "../src/lib/dataConvert/transforms";
-import type { Facility, FacilityDataset } from "../src/types";
+import type { Facility, FacilityDataset, SourceKey } from "../src/types";
 
-const SOURCE_FILE = path.resolve(
-  import.meta.dirname,
-  "../data-source/경인_예우시설_2026_4_30_업데이트_정리.xlsx",
-);
+const DATA_SOURCE_DIR = path.resolve(import.meta.dirname, "../data-source");
 const OUTPUT_FILE = path.resolve(import.meta.dirname, "../public/data/facilities.json");
-const NAVER_MAP_LINKS_FILE = path.resolve(
-  import.meta.dirname,
-  "../data-source/naver-map-facility-links.json",
-);
+
+/** 두 소스 모두 같은 조사일자 기준이다 (GYEONGGI_NORTH_DATA_PLAN D5) */
 const DATA_UPDATED_AT = "2026-04-30";
+
+interface SourceDefinition {
+  key: SourceKey;
+  /** 관할 기관 — 데이터에만 보존하고 화면에는 노출하지 않는다 (D9) */
+  label: string;
+  file: string;
+  mapLinks: string;
+}
+
+/**
+ * 관할 기관별 원본. 항목을 추가하면 타 지청·타 청 데이터도 그대로 수용한다.
+ * facilityId는 `${key}-${연번 3자리}` — 소스별로 연번을 원본 그대로 유지한다.
+ */
+const SOURCES: SourceDefinition[] = [
+  {
+    key: "f",
+    label: "경인지방병무청",
+    file: "경인_예우시설_2026_4_30_업데이트_정리.xlsx",
+    mapLinks: "naver-map-facility-links.json",
+  },
+  {
+    key: "n",
+    label: "경기북부지청",
+    file: "경기북부_예우시설_2026_4_30_정리.xlsx",
+    mapLinks: "naver-map-facility-links.north.json",
+  },
+];
 
 const COLUMNS = {
   rowNumber: 1,
@@ -73,26 +96,46 @@ function cellText(row: ExcelJS.Row, column: number): string {
   return String(value);
 }
 
-async function main(): Promise<void> {
-  const naverMapLinks = JSON.parse(await readFile(NAVER_MAP_LINKS_FILE, "utf8")) as Array<{
-    sourceRowNumber: number;
-    url: string | null;
-  }>;
-  const naverMapUrlByRow = new Map(
-    naverMapLinks.map(({ sourceRowNumber, url }) => [sourceRowNumber, url]),
-  );
+/**
+ * 지도 링크 항목. placeId·lat·lng는 수집한 소스만 보유하는 선택 필드로,
+ * 없으면 null을 부여한다 (남부 파일은 손대지 않는다 — D8).
+ */
+interface MapLinkEntry {
+  sourceRowNumber: number;
+  url: string | null;
+  placeId?: string | null;
+  lat?: number | null;
+  lng?: number | null;
+}
+
+interface SourceResult {
+  facilities: Facility[];
+  errors: string[];
+  warnings: string[];
+}
+
+async function convertSource(
+  source: SourceDefinition,
+  /** 시설 중복 경고는 소스를 통합해 판정한다 */
+  duplicateKeys: Map<string, string[]>,
+): Promise<SourceResult> {
+  const mapLinks = JSON.parse(
+    await readFile(path.join(DATA_SOURCE_DIR, source.mapLinks), "utf8"),
+  ) as MapLinkEntry[];
+  const mapLinkByRow = new Map(mapLinks.map((link) => [link.sourceRowNumber, link]));
+
   const workbook = new ExcelJS.Workbook();
-  await workbook.xlsx.readFile(SOURCE_FILE);
+  await workbook.xlsx.readFile(path.join(DATA_SOURCE_DIR, source.file));
   const sheet = workbook.worksheets[0];
   if (sheet === undefined) {
-    throw new Error("워크시트를 찾을 수 없습니다");
+    throw new Error(`[${source.key}] 워크시트를 찾을 수 없습니다 — ${source.file}`);
   }
 
   const errors: string[] = [];
   const warnings: string[] = [];
   const facilities: Facility[] = [];
+  /** 연번 중복 검사는 소스 내부에서만 판정한다 */
   const seenRowNumbers = new Set<number>();
-  const duplicateKeys = new Map<string, number[]>();
 
   sheet.eachRow((row, excelRowIndex) => {
     if (excelRowIndex === 1) {
@@ -101,20 +144,22 @@ async function main(): Promise<void> {
 
     const rowNumber = Number(normalizeWhitespace(cellText(row, COLUMNS.rowNumber)));
     if (!Number.isInteger(rowNumber) || rowNumber <= 0) {
-      errors.push(`엑셀 ${excelRowIndex}행: 연번이 유효하지 않습니다`);
+      errors.push(`[${source.key}] 엑셀 ${excelRowIndex}행: 연번이 유효하지 않습니다`);
       return;
     }
     if (seenRowNumbers.has(rowNumber)) {
-      errors.push(`연번 ${rowNumber}: 중복된 연번`);
+      errors.push(`[${source.key}] 연번 ${rowNumber}: 중복된 연번`);
       return;
     }
     seenRowNumbers.add(rowNumber);
+    const facilityId = `${source.key}-${String(rowNumber).padStart(3, "0")}`;
 
     const sourceRegion = normalizeWhitespace(cellText(row, COLUMNS.region));
     const categorySource = normalizeWhitespace(cellText(row, COLUMNS.category));
     const facilityName = normalizeWhitespace(cellText(row, COLUMNS.name));
     const benefitTarget = normalizeWhitespace(cellText(row, COLUMNS.target));
-    const benefitDescription = normalizeWhitespace(cellText(row, COLUMNS.benefit));
+    // 감면 내용은 줄 구조가 의미를 가져 개행을 보존한다 (D6)
+    const benefitDescription = normalizeMultilineText(cellText(row, COLUMNS.benefit));
     const benefitTypeRaw = normalizeWhitespace(cellText(row, COLUMNS.benefitType));
     const organizationType = toNullable(cellText(row, COLUMNS.organization));
     const note = normalizeNote(cellText(row, COLUMNS.note));
@@ -130,12 +175,14 @@ async function main(): Promise<void> {
       displayRegionCode = findRegionCodeInAddress(address);
       displayRegionLabel = PROVINCIAL_DISPLAY_LABEL;
       if (displayRegionCode === null) {
-        warnings.push(`연번 ${rowNumber}: 광역 시설의 소재 시·군을 주소에서 찾지 못함`);
+        warnings.push(
+          `[${source.key}] 연번 ${rowNumber}: 광역 시설의 소재 시·군을 주소에서 찾지 못함`,
+        );
       }
     } else {
       const region = findRegionBySourceLabel(sourceRegion);
       if (region === null) {
-        errors.push(`연번 ${rowNumber}: 미정의 지역값 "${sourceRegion}"`);
+        errors.push(`[${source.key}] 연번 ${rowNumber}: 미정의 지역값 "${sourceRegion}"`);
         return;
       }
       displayRegionCode = region.code;
@@ -144,12 +191,14 @@ async function main(): Promise<void> {
 
     const category = findCategoryBySourceLabel(categorySource);
     if (category === null) {
-      errors.push(`연번 ${rowNumber}: 미정의 업종값 "${categorySource}"`);
+      errors.push(`[${source.key}] 연번 ${rowNumber}: 미정의 업종값 "${categorySource}"`);
       return;
     }
 
     if (benefitTypeRaw !== "면제" && benefitTypeRaw !== "할인") {
-      errors.push(`연번 ${rowNumber}: 면제/할인 값이 유효하지 않음 "${benefitTypeRaw}"`);
+      errors.push(
+        `[${source.key}] 연번 ${rowNumber}: 면제/할인 값이 유효하지 않음 "${benefitTypeRaw}"`,
+      );
       return;
     }
 
@@ -164,11 +213,14 @@ async function main(): Promise<void> {
     const duplicateKey = `${sourceRegion}|${categorySource}|${facilityName}`;
     duplicateKeys.set(duplicateKey, [
       ...(duplicateKeys.get(duplicateKey) ?? []),
-      rowNumber,
+      facilityId,
     ]);
 
+    const mapLink = mapLinkByRow.get(rowNumber);
+
     facilities.push({
-      facilityId: `f-${String(rowNumber).padStart(3, "0")}`,
+      facilityId,
+      sourceKey: source.key,
       sourceRowNumber: rowNumber,
       sourceRegion,
       isProvincial,
@@ -184,7 +236,10 @@ async function main(): Promise<void> {
       organizationType,
       note,
       homepageUrl,
-      naverMapUrl: naverMapUrlByRow.get(rowNumber) ?? null,
+      naverMapUrl: mapLink?.url ?? null,
+      naverPlaceId: mapLink?.placeId ?? null,
+      lat: mapLink?.lat ?? null,
+      lng: mapLink?.lng ?? null,
       address,
       phoneDisplay,
       phoneTel,
@@ -195,10 +250,55 @@ async function main(): Promise<void> {
     });
   });
 
-  // 중복 의심은 자동 병합하지 않고 경고만 남긴다 (PRD 10.5)
-  for (const [key, rowNumbers] of duplicateKeys) {
-    if (rowNumbers.length > 1) {
-      warnings.push(`중복 의심: ${key} (연번 ${rowNumbers.join(", ")})`);
+  return { facilities, errors, warnings };
+}
+
+/** 변환 리포트 — PRD 10.1 수치 및 계획서 §2.3 기준값과 대조용 */
+function printStats(facilities: Facility[], indent: string): void {
+  const count = (predicate: (facility: Facility) => boolean) =>
+    facilities.filter(predicate).length;
+  const needsReview = facilities.filter((f) => f.dataStatus === "needs_review");
+  console.log(`${indent}총 시설: ${facilities.length}건`);
+  console.log(`${indent}공개(published): ${count((f) => f.isActive)}건`);
+  console.log(
+    `${indent}비공개(needs_review): ${needsReview.length}건${
+      needsReview.length > 0
+        ? ` — ${needsReview.map((f) => f.facilityId).join(", ")}`
+        : ""
+    }`,
+  );
+  console.log(`${indent}광역(경기도): ${count((f) => f.isProvincial)}건`);
+  console.log(`${indent}홈페이지 URL: ${count((f) => f.homepageUrl !== null)}건`);
+  console.log(`${indent}주소: ${count((f) => f.address !== null)}건`);
+  console.log(`${indent}전화 실행 가능: ${count((f) => f.phoneTel !== null)}건`);
+  console.log(`${indent}비고: ${count((f) => f.note !== null)}건`);
+  console.log(
+    `${indent}지도 링크: ${count((f) => (f.naverMapUrl ?? null) !== null)}건 (그중 정밀 링크 ${count(
+      (f) => f.naverMapUrl?.includes("/entry/place/") ?? false,
+    )}건)`,
+  );
+  console.log(`${indent}좌표: ${count((f) => f.lat !== null && f.lng !== null)}건`);
+}
+
+async function main(): Promise<void> {
+  const duplicateKeys = new Map<string, string[]>();
+  const facilities: Facility[] = [];
+  const errors: string[] = [];
+  const warnings: string[] = [];
+  const perSource: Array<{ source: SourceDefinition; facilities: Facility[] }> = [];
+
+  for (const source of SOURCES) {
+    const result = await convertSource(source, duplicateKeys);
+    facilities.push(...result.facilities);
+    errors.push(...result.errors);
+    warnings.push(...result.warnings);
+    perSource.push({ source, facilities: result.facilities });
+  }
+
+  // 중복 의심은 자동 병합하지 않고 경고만 남긴다 (PRD 10.5). 판정은 소스 통합 기준
+  for (const [key, facilityIds] of duplicateKeys) {
+    if (facilityIds.length > 1) {
+      warnings.push(`중복 의심: ${key} (${facilityIds.join(", ")})`);
     }
   }
 
@@ -219,26 +319,16 @@ async function main(): Promise<void> {
   await mkdir(path.dirname(OUTPUT_FILE), { recursive: true });
   await writeFile(OUTPUT_FILE, `${JSON.stringify(dataset, null, 2)}\n`, "utf8");
 
-  // 변환 리포트 — PRD 10.1 수치와 대조용
-  const active = facilities.filter((facility) => facility.isActive);
-  const count = (predicate: (facility: Facility) => boolean) =>
-    facilities.filter(predicate).length;
   console.log("변환 완료:", OUTPUT_FILE);
-  console.log(`  총 시설: ${facilities.length}건`);
-  console.log(`  공개(published): ${active.length}건`);
-  console.log(
-    `  비공개(needs_review): ${count((f) => f.dataStatus === "needs_review")}건 — 연번 ${facilities
-      .filter((f) => f.dataStatus === "needs_review")
-      .map((f) => f.sourceRowNumber)
-      .join(", ")}`,
-  );
-  console.log(`  광역(경기도): ${count((f) => f.isProvincial)}건`);
-  console.log(`  홈페이지 URL: ${count((f) => f.homepageUrl !== null)}건`);
-  console.log(`  주소: ${count((f) => f.address !== null)}건`);
-  console.log(`  전화 실행 가능: ${count((f) => f.phoneTel !== null)}건`);
-  console.log(`  비고: ${count((f) => f.note !== null)}건`);
+  for (const { source, facilities: sourceFacilities } of perSource) {
+    console.log(`\n[${source.key}] ${source.label} — ${source.file}`);
+    printStats(sourceFacilities, "    ");
+  }
+  console.log("\n[전체 합계]");
+  printStats(facilities, "    ");
+
   if (warnings.length > 0) {
-    console.log(`경고 ${warnings.length}건:`);
+    console.log(`\n경고 ${warnings.length}건:`);
     for (const warning of warnings) {
       console.log(`  - ${warning}`);
     }

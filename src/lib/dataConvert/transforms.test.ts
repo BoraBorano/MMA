@@ -1,5 +1,6 @@
 import {
   cleanAddress,
+  normalizeMultilineText,
   normalizeNote,
   normalizeWhitespace,
   parsePhone,
@@ -10,6 +11,37 @@ import {
 describe("normalizeWhitespace", () => {
   it("앞뒤 공백·탭 제거, 연속 공백 정리", () => {
     expect(normalizeWhitespace("  경기도\t수원시   권선구 ")).toBe("경기도 수원시 권선구");
+  });
+});
+
+describe("normalizeMultilineText (감면 내용 개행 보존)", () => {
+  it("개행을 보존하면서 줄 단위 연속 공백만 정리한다", () => {
+    expect(normalizeMultilineText("비급여 10%~20% 할인\n세부  우대대상 : 예비군")).toBe(
+      "비급여 10%~20% 할인\n세부 우대대상 : 예비군",
+    );
+  });
+
+  it("이중 공백을 정리한다 (실데이터 북부 연번 12)", () => {
+    expect(normalizeMultilineText("무료  , 양주시 거주자")).toBe("무료 , 양주시 거주자");
+  });
+
+  it("CRLF·CR을 LF로 통일한다", () => {
+    expect(normalizeMultilineText("첫 줄\r\n둘째 줄\r셋째 줄")).toBe(
+      "첫 줄\n둘째 줄\n셋째 줄",
+    );
+  });
+
+  it("빈 줄이 3줄 이상 이어지면 2줄로 축약한다", () => {
+    expect(normalizeMultilineText("앞\n\n\n\n뒤")).toBe("앞\n\n뒤");
+  });
+
+  it("줄 끝 공백과 앞뒤 공백·개행을 제거한다", () => {
+    expect(normalizeMultilineText("\n  앞 줄   \n\t뒤 줄  \n ")).toBe("앞 줄\n 뒤 줄");
+  });
+
+  it("개행이 없는 값은 normalizeWhitespace와 같은 결과를 낸다", () => {
+    const value = "  병역명문가 본인   20% 할인 ";
+    expect(normalizeMultilineText(value)).toBe(normalizeWhitespace(value));
   });
 });
 
