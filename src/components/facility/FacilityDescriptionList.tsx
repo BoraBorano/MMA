@@ -8,6 +8,7 @@ interface FacilityDescriptionListProps {
  * 시설 상세 정보 — dl/dt/dd 구조 (PRD 6.4.1 순서 4~8, 지역은 순서 2).
  * 없는 항목은 영역 자체를 숨긴다 (FR-020). 기관구분은 기본 상세에 노출하지 않는다.
  * 비고는 원문 그대로 표시하며 개행을 보존한다 (FR-015).
+ * 감면 내용도 여러 줄 원문의 줄 구조를 보존한다 (GYEONGGI_NORTH_DATA_PLAN D6).
  */
 export function FacilityDescriptionList({ facility }: FacilityDescriptionListProps) {
   return (
@@ -22,7 +23,9 @@ export function FacilityDescriptionList({ facility }: FacilityDescriptionListPro
       </div>
       <div>
         <dt className="text-sm text-muted">감면 내용</dt>
-        <dd className="text-base font-bold text-navy">{facility.benefitDescription}</dd>
+        <dd className="whitespace-pre-line text-base font-bold text-navy">
+          {facility.benefitDescription}
+        </dd>
       </div>
       {facility.note !== null && (
         <div>
