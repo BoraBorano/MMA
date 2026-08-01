@@ -166,9 +166,16 @@ export type BenefitType = "면제" | "할인";
 export type FacilityDataStatus = "published" | "needs_review" | "inactive";
 export type ExternalLinkType = "tel" | "homepage" | "map";
 
+/** 원본 소스 식별자 — f: 경인지방병무청, n: 경기북부지청 */
+export type SourceKey = "f" | "n";
+
+/** 시·도 코드 — 전국 확장 대비. 현재는 경기도만 존재 */
+export type ProvinceCode = "gyeonggi";
+
 export interface Facility {
-  facilityId: string;              // "f-001" ~ "f-440" (연번 기반)
-  sourceRowNumber: number;         // 엑셀 연번 원본
+  facilityId: string;              // "{sourceKey}-{연번 3자리}" — 남부 f-001~, 북부 n-001~n-058
+  sourceKey: SourceKey;            // 출처 추적용, 화면 미노출
+  sourceRowNumber: number;         // 엑셀 연번 원본 — 소스가 다르면 값이 겹치므로 단독 키로 쓰지 않는다
   sourceRegion: string;            // 지역 원문 ("수원", "경기도" 등)
   isProvincial: boolean;           // 지역값이 "경기도"인 광역 시설 (전 시·군 공통 표출)
   displayRegionCode: RegionCode | null; // 광역 시설은 소재 시·군 코드(주소 기반 초안)
@@ -178,11 +185,15 @@ export interface Facility {
   categoryLabel: string;           // "숙박&관광" 등 화면 표시명
   facilityName: string;            // 원문 유지
   benefitTarget: string;           // 원문 유지
-  benefitDescription: string;      // 원문 유지
+  benefitDescription: string;      // 원문 유지 — 개행 보존(줄 단위 공백만 정리)
   benefitType: BenefitType;
   organizationType: string | null; // 보존만, 기본 미노출
   note: string | null;             // 원문 유지 — 가공 금지
   homepageUrl: string | null;      // http/https 검증 통과 값만
+  naverMapUrl?: string | null;     // 검증된 네이버지도 링크. 주소만으로 즉석 생성하지 않는다
+  naverPlaceId: string | null;     // 수집된 소스만 보유 (MVP 화면 미사용)
+  lat: number | null;              // 수집된 소스만 보유 (MVP 화면 미사용)
+  lng: number | null;              // 수집된 소스만 보유 (MVP 화면 미사용)
   address: string | null;
   phoneDisplay: string | null;     // 원문 표시값
   phoneTel: string | null;         // tel: URI용 실행값 (없으면 버튼 미노출)
@@ -195,6 +206,7 @@ export interface Facility {
 export interface Region {
   code: RegionCode;
   label: string;          // "수원시"
+  provinceCode: ProvinceCode; // 현재 전부 "gyeonggi" — 전국 확장 시 코드 충돌 판별 기준
   sourceLabels: string[]; // 엑셀 원문 매칭값 ["수원"]
   isPublished: boolean;   // region_config 공개 제어
   sortOrder: number;      // 기본 가나다순
@@ -225,27 +237,37 @@ export type FacilityDataLoad =
 
 ## 6. 데이터 스키마 — 엑셀 12컬럼 → 앱 필드 매핑
 
+앞 12개 컬럼의 이름과 순서는 **모든 소스가 공유한다**. 소스가 늘어도 이 매핑은 그대로 재사용된다.
+
 | 엑셀 컬럼 | 앱 필드 | 처리 |
 |---|---|---|
-| 연번 | sourceRowNumber, facilityId(`f-{연번 3자리}`) | 그대로 |
+| 연번 | sourceRowNumber, facilityId(`{sourceKey}-{연번 3자리}`) | 그대로. 연번은 소스별로 원본을 유지하며 재부여·오프셋하지 않는다 |
 | 지역 | sourceRegion → displayRegionCode/Label, isProvincial | "경기도"면 isProvincial=true, 소재 시·군은 주소 기반 초안 매핑(수원·시흥·오산·화성) |
 | 업종 | categorySource → categoryCode/Label | 7종 고정 매핑: 교육→education, 문화→culture, 숙박·관광→lodging(표시 "숙박&관광"), 의료→medical, 주차→parking, 체육→sports, 기타→etc |
 | 시설명 | facilityName | 공백 정리 외 원문 유지 |
 | 우대 대상 | benefitTarget | 원문 유지 |
-| 감면 내용 | benefitDescription | 원문 유지. **누락 시 dataStatus=needs_review, isActive=false** (연번 39·41 해당) |
+| 감면 내용 | benefitDescription | 원문 유지. **개행 보존**(줄 단위로 공백만 정리 — `normalizeMultilineText`). **누락 시 dataStatus=needs_review, isActive=false** (f-039·f-041 해당) |
 | 면제/할인 | benefitType | "면제"/"할인" 검증 |
 | 기관구분 | organizationType | 원문 보존, 화면 미노출 |
 | 비고 | note | **원문 그대로. 어떤 정규화도 적용하지 않음**(개행 포함 보존) |
 | 홈페이지 URL | homepageUrl | http/https 검증, 실패 시 null |
 | 주소 | address | "-"·빈값·엑셀 오류 문자열 → null, 따옴표 오염 제거 |
 | 연락처 | phoneDisplay + phoneTel | 표시/실행 분리(§7 파싱 규칙) |
-| (생성) | imageUrl=null, sourceUpdatedAt="2026-04-30", dataStatus, isActive | 변환 스크립트가 부여 |
+| (생성) | sourceKey, imageUrl=null, sourceUpdatedAt="2026-04-30", dataStatus, isActive | 변환 스크립트가 부여 |
+| (별도 파일) | naverMapUrl, naverPlaceId, lat, lng | 소스별 지도 링크 JSON에서 연번으로 조인. `placeId`·`lat`·`lng`는 **선택 필드**로, 없으면 null |
 
 ## 7. 데이터 변환 규칙 (scripts/convert-data.ts)
 
-빌드 전 1회 실행. 엑셀을 읽어 `public/data/facilities.json`을 생성하고 검증 리포트를 출력한다.
+빌드 전 1회 실행. `SOURCES` 배열의 각 소스를 순서대로 읽어 `public/data/facilities.json` 하나를 생성하고, 소스별 소계와 전체 합계를 리포트로 출력한다.
 
-1. 모든 문자열 필드: 앞뒤 공백·탭 제거, 연속 공백 1개로 정리 — **단, 비고(note)는 trim만 적용하고 내부 공백·개행은 보존**
+```ts
+const SOURCES = [
+  { key: "f", label: "경인지방병무청", file: "경인_…_정리.xlsx",     mapLinks: "naver-map-facility-links.json" },
+  { key: "n", label: "경기북부지청",   file: "경기북부_…_정리.xlsx", mapLinks: "naver-map-facility-links.north.json" },
+];
+```
+
+1. 모든 문자열 필드: 앞뒤 공백·탭 제거, 연속 공백 1개로 정리 — **단, 비고(note)는 trim만 적용하고 내부 공백·개행은 보존**하며, **감면 내용(benefitDescription)은 개행을 보존하고 줄 단위로만 공백을 정리**한다(`normalizeMultilineText`)
 2. 빈 문자열과 `-` → null
 3. 엑셀 오류 문자열(`#VALUE!`, `#REF!`, `#N/A`, `#DIV/0!`) → null
 4. 주소의 따옴표류(`"`, `"`, `"`) 제거 (예: 연번 179 `거북섬서로 "35"`)
@@ -253,11 +275,24 @@ export type FacilityDataLoad =
 6. 연락처 파싱: phoneDisplay = 원문 / phoneTel = ①숫자·하이픈 외 문자로 분리된 첫 번째 번호 채택 ②괄호 이하 제거 ③마침표 구분은 하이픈으로 정규화 ④전화 패턴(`^\d{2,4}-?\d{3,4}-?\d{4}$` 또는 대표번호 `^1\d{3}-?\d{4}$`) 불일치 시 phoneTel=null·phoneDisplay=null (예: "홈페이지 확인")
 7. 주소는 추정·보완하지 않는다 — 시·군 단위만 있는 주소도 원문 유지
 8. 필수값(지역·업종·시설명·우대 대상·감면 내용·면제/할인) 누락 → dataStatus="needs_review", isActive=false로 JSON에 포함하되 화면 제외
-9. 중복 자동 병합 금지 — 지역+업종+시설명 동일 시 변환 스크립트가 경고만 출력
-10. 검증 실패(미정의 지역값·업종값 발견) 시 변환을 **중단**하고 오류 목록 출력 — 조용한 fallback 금지
-11. 변환 리포트: 총 건수, 공개 건수, 필드 보유 통계를 출력해 PRD 10.1 수치와 대조
+9. 중복 자동 병합 금지 — 지역+업종+시설명 동일 시 변환 스크립트가 경고만 출력. 판정은 **소스를 통합해서** 한다
+10. 연번 중복 검사는 **소스 내부**에서만 한다 — 소스가 다르면 같은 연번이 정상적으로 존재한다
+11. 검증 실패(미정의 지역값·업종값 발견) 시 변환을 **중단**하고 오류 목록 출력 — 조용한 fallback 금지. 오류·경고 메시지에는 `[소스키]` 접두어가 붙는다
+12. 변환 리포트: 소스별 소계와 전체 합계로 총 건수·공개 건수·필드 보유 통계를 출력해 기준 수치와 대조
 
-**기대 산출**: 총 440건 → published 438건(needs_review 2건: 연번 39·41), 광역(isProvincial) 4건.
+**기대 산출** (2026-08-02 기준): 총 491건 → published 489건(needs_review 2건: f-039·f-041), 광역(isProvincial) 4건. 소스별 소계는 경인 433건 / 경기북부 58건.
+
+### 7.1 소스 추가 절차
+
+핵심 코드를 바꾸지 않고 관할 기관을 늘릴 수 있다.
+
+1. 정제 엑셀을 `data-source/`에 배치한다 (앞 12컬럼 이름·순서가 기존과 같아야 한다)
+2. 지도 링크 JSON을 같은 폴더에 배치한다 (`{sourceRowNumber, url}` 필수, `placeId`·`lat`·`lng` 선택)
+3. `SOURCES` 배열에 항목 1개를 추가한다 — `key`는 기존과 겹치지 않는 1글자
+4. `SourceKey` 유니온 타입에 새 키를 추가한다
+5. `npm run convert:data` → 리포트의 소스별 소계 확인 → `facilities.test.ts` 기대값 갱신
+
+지역·업종 원문값이 기존 `sourceLabels`에 없으면 변환이 중단된다. 이때 **매핑을 임의로 추가하지 말고** 담당자와 원문 표기를 먼저 확인한다.
 
 ## 8. 상태 모델
 

@@ -26,16 +26,33 @@ npm run dev
 
 ## 데이터 갱신
 
-1. 정제된 예우시설 엑셀 파일을 `data-source/경인_예우시설_2026_4_30_업데이트_정리.xlsx` 경로에 덮어쓴다.
+예우시설 데이터는 **관할 기관별 소스**로 나뉘어 있고, 변환 스크립트가 이를 하나의 `facilities.json`으로 합친다.
+
+| 소스 | 키 | 엑셀 | 지도 링크 |
+|---|---|---|---|
+| 경인지방병무청 | `f` | `data-source/경인_예우시설_2026_4_30_업데이트_정리.xlsx` | `naver-map-facility-links.json` |
+| 경기북부지청 | `n` | `data-source/경기북부_예우시설_2026_4_30_정리.xlsx` | `naver-map-facility-links.north.json` |
+
+1. 정제된 엑셀 파일을 위 경로에 덮어쓴다.
 2. 변환 스크립트를 실행한다.
 
 ```bash
 npm run convert:data
 ```
 
-`public/data/facilities.json`이 재생성되며, 총 건수·공개 건수·비공개(needs_review) 건수·필드 보유 통계가 콘솔에 출력된다. 미정의 지역·업종값이 발견되면 변환이 **중단**된다(조용한 보정 없음) — 오류 목록을 확인하고 [src/data/regionConfig.ts](src/data/regionConfig.ts) / [src/data/categoryConfig.ts](src/data/categoryConfig.ts)의 매핑을 담당자와 함께 검토한다.
+`public/data/facilities.json`이 재생성되며, **소스별 소계와 전체 합계**로 총 건수·공개 건수·비공개(needs_review) 건수·필드 보유 통계가 콘솔에 출력된다.
 
-데이터 갱신 후에는 `npm test`로 [src/data/facilities.test.ts](src/data/facilities.test.ts)의 검증(총 건수, 공개 건수, 광역 매핑, 필드 통계, 비고 원문 표본)이 여전히 유효한지 확인한다. 수치가 바뀌면 테스트가 실패하며, 이는 의도된 변경인지 담당자 확인이 필요하다는 신호다.
+시설 ID는 `{소스키}-{연번 3자리}` 형식이다(`f-001`, `n-058`). 연번은 소스별 원본을 그대로 쓰므로 **소스가 다르면 같은 연번이 존재하는 것이 정상**이다 — 시설을 특정할 때는 `sourceRowNumber`가 아니라 `facilityId`를 쓴다.
+
+경기북부 소스처럼 통합 엑셀에 네이버지도 수집 결과가 함께 들어 있는 경우, 지도 링크 JSON은 다음으로 재생성한다.
+
+```bash
+npx tsx scripts/extract-north-map-links.ts
+```
+
+새 관할 기관을 추가하는 절차는 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) §7.1에 있다. 미정의 지역·업종값이 발견되면 변환이 **중단**된다(조용한 보정 없음) — 오류 목록을 확인하고 [src/data/regionConfig.ts](src/data/regionConfig.ts) / [src/data/categoryConfig.ts](src/data/categoryConfig.ts)의 매핑을 담당자와 함께 검토한다.
+
+데이터 갱신 후에는 `npm test`로 [src/data/facilities.test.ts](src/data/facilities.test.ts)의 검증(총 건수, 소스별 소계, 공개 건수, 광역 매핑, 필드 통계, 좌표 보유 건수, 비고 원문 표본, 감면 내용 개행 보존)이 여전히 유효한지 확인한다. 수치가 바뀌면 테스트가 실패하며, 이는 의도된 변경인지 담당자 확인이 필요하다는 신호다.
 
 ### 경기도 군마트(PX) 데이터 갱신
 
@@ -91,7 +108,7 @@ src/
   services/      필터링, 외부 링크, 데이터 저장소 (예우시설 + PX)
   types/         전역 타입 정의 (px.ts는 예우시설 스키마와 분리)
 tests/e2e/       Playwright 시나리오
-docs/            PRD, 아키텍처, 구현계획, 검수 보고서
+docs/            PRD, 아키텍처, 구현계획, 검수 보고서, QA 후속 과제 백로그
 ```
 
 ## 문서
